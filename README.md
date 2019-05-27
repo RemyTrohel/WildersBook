@@ -6,5 +6,5 @@ Le site web devra être **responsive**.
 Travail de groupe réunissant :
 * Clément Bouakil
 * Rémy Trohel
-* Stéphane Dhomin
+* Stéphane Thomin
 * Vincent Guegan
