@@ -32,5 +32,5 @@ Footer avec lien vers réseaux sociaux de la Wild
 Contact de Clément Bechetoille
 
 ## Workflow
-Utilisation du camelCase
+Utilisation du camelCase  
 Utilisation de Git et GitHub
