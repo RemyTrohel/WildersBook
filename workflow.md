@@ -9,6 +9,7 @@
 	* Présentation de l'épreuve de sélection
 	* Lien vers le site
 * Présentation de la **formation JAVA/JEE/Spring**
+ * Présentation formateur et Campus Manager
 ### Section n°2
 Insertion d'un plug-in Google Maps pour situer la formation
 ### Section n°3
@@ -26,7 +27,9 @@ Présentation des Wilders
 		* Géographique
 		* Domaine d'activité 
 ### Section n°4
+Bouton "Offre de stage" vers https://wild-code-school.jobteaser.com
 Footer avec lien vers réseaux sociaux de la Wild
+Contact de Clément Bechetoille
 
 ## Workflow
 Utilisation du camelCase
