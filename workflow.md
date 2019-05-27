@@ -29,5 +29,5 @@ Présentation des Wilders
 Footer avec lien vers réseaux sociaux de la Wild
 
 ## Workflow
-Utilisation du camelCase
+Utilisation du camelCase  
 Utilisation de Git et GitHub
