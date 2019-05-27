@@ -3,24 +3,27 @@
 ## Définition du contenu
 
 ### Menu de navigation 
-Bouton "Offre de stage" vers https://wild-code-school.jobteaser.com  
-Menu Burger (version mobile et tablette)  
-Section (version Desktop)  
-Logo de la Wild Code School  
-Menu fixe  
+Bouton "Offre de stage" vers https://wild-code-school.jobteaser.com au MILIEU  
+Menu Burger (version mobile et tablette) a DROITE  
+Logo Wild Code School à GAUCHE  
+Sections affichées (version Desktop) avec encrage 
+Menu fixe
+Code couleur #f76d6d
 
 #### Contenu du menu
-* Wild Code School
-* Les Wilders
+* La formation
+* Nos wilders
+* Nous trouver
+* Nous contacter
 
-### Section n°1 (JUMBOTRON + MODAL)
+### Section n°1
 * Présentation de la **Wild Code School**
 	* Quartier libre
-	* Présentations formations
-	* Présentation de l'épreuve de sélection
-	* Lien vers le site
+	* Wild Code School
+		* Liens vers le site de la Wild et de Quartier Libre
 * Présentation de la **formation JAVA/JEE/Spring**
 	* Présentation formateur et Campus Manager
+	* Présentation formation
  
 ### Section n°2
 Présentation des Wilders
@@ -47,6 +50,8 @@ Contact de Clément Bechetoille
 ## Workflow
 Utilisation du camelCase  
 Utilisation de Git et GitHub
+Bien mettre les différentes commentaires sur les fichiers HTML et CSS
+
 
 ## Informations à récupérer pour fiche wilder
 * Nom
