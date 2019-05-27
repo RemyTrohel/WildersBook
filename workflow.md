@@ -14,14 +14,13 @@ Menu fixe
 * Les Wilders
 
 ### Section n°1
-* Présentation de **Quartier Libre**
-	* Lien vers le site
 * Présentation de la **Wild Code School**
+	* Quartier libre
 	* Présentations formations
 	* Présentation de l'épreuve de sélection
 	* Lien vers le site
 * Présentation de la **formation JAVA/JEE/Spring**
- * Présentation formateur et Campus Manager
+	* Présentation formateur et Campus Manager
  
 ### Section n°2
 Présentation des Wilders
@@ -48,3 +47,15 @@ Contact de Clément Bechetoille
 ## Workflow
 Utilisation du camelCase  
 Utilisation de Git et GitHub
+
+## Informations à récupérer pour fiche wilder
+* Nom
+* Prénom
+* Lien LinkedIn
+* Lien GitHub
+* Adresse email pro
+* Petit paragraphe retraçant son parcours (formation et expérience(s) pro(s))
+* Photo de profil (minimum 350x350px)
+* Top compétences (exemple Méthode AGILE, JAVA, Photoshop etc...)
+* Mobilité
+* Téléphone (optionnel)
