@@ -13,7 +13,7 @@ Menu fixe
 * Wild Code School
 * Les Wilders
 
-### Section n°1
+### Section n°1 (JUMBOTRON + MODAL)
 * Présentation de la **Wild Code School**
 	* Quartier libre
 	* Présentations formations
