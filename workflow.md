@@ -4,10 +4,11 @@
 
 ### Menu de navigation 
 Bouton "Offre de stage" vers https://wild-code-school.jobteaser.com  
-Menu Burger (version mobile et tablette)
-Section (version Desktop)
-Logo de la Wild Code School
-Menu fixe
+Menu Burger (version mobile et tablette)  
+Section (version Desktop)  
+Logo de la Wild Code School  
+Menu fixe  
+
 #### Contenu du menu
 * Wild Code School
 * Les Wilders
