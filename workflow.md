@@ -6,8 +6,8 @@
 Bouton "Offre de stage" vers https://wild-code-school.jobteaser.com au MILIEU  
 Menu Burger (version mobile et tablette) a DROITE  
 Logo Wild Code School à GAUCHE  
-Sections affichées (version Desktop) avec encrage 
-Menu fixe
+Sections affichées (version Desktop) avec encrage  
+Menu fixe  
 Code couleur #f76d6d
 
 #### Contenu du menu
