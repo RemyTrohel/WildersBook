@@ -105,10 +105,11 @@ header .container-icon{
     padding: 2%;
     display: flex;
     justify-content: space-between;
-    font-size: 150%;
+    align-items: center;
     color: white;
 }
 
-.reseaux{
-    font-size: 200%;
+.reseaux ion-icon{
+    font-size: 250%;
+    color: white;
 }
