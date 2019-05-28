@@ -80,7 +80,7 @@ header .container-icon{
     }
 }
 
-@media (min-width: 992px){
+@media screen and (min-width: 992px){
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 1vw;
         padding-left: 1vw;
@@ -96,5 +96,53 @@ header .container-icon{
 
     .navbar-nav .nav-link:hover:last-child {
         border-radius:0 10px 10px 0;
+    }
+}
+
+/* SECTION FORMATEUR */
+/* --- FENETRE MODALE FORMATEUR --- */
+
+#formation{
+    padding:4vh 0 4vh 0;
+    display:flex;
+    justify-content:space-between;
+    align-content:center;
+}
+
+#formation .card{
+    max-width:400px;
+    text-align:center;
+}
+
+#formation .card .card-text{
+    color:gray;
+    font-size:10pt;
+}
+
+#formation .card ion-icon{
+    color:#353535;
+    height:20px;
+    width:20px;
+}
+
+#formation .card ion-icon:hover{
+    color:#f76d6d;
+    transition-duration: 0.3s;
+}
+
+#formation .card:hover{
+    box-shadow:0px 0px 10px 0px gray;
+    transition-duration: 0.3s;
+}
+
+/* --------------- FENETRE MODAL FORMATEUR ------------- */
+
+#formation .modal-content{
+    padding:30px;
+}
+
+@media screen and (min-width: 576px){
+    #formation .modal-dialog {
+        max-width: 80%;
     }
 }
