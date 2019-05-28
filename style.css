@@ -43,3 +43,10 @@ header .navbar-dark{
         display:none;
     }
 }
+
+/* Icones des fenêtres modales */
+.modal-top-right ion-icon{
+    width:32px;
+    height:32px;
+    color:rgb(255, 31, 80);
+  }
