@@ -98,3 +98,17 @@ header .container-icon{
         border-radius:0 10px 10px 0;
     }
 }
+
+/* FOOTER */
+.baspage{
+    background-color: grey;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 150%;
+    color: white;
+}
+
+.reseaux{
+    font-size: 200%;
+}
