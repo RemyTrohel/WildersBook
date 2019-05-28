@@ -126,3 +126,15 @@ header .container-icon{
 
 
 /* -------- FENETRES MODALES -------- */
+#cards .row{
+
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    max-width: 18rem;
+    margin: auto;
+}
+
