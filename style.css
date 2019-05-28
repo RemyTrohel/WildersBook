@@ -47,12 +47,14 @@ header .navbar-dark{
 #cards .row{
 
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 @media screen and (max-width:900px){/* Pour tous les écrans d'une taille maximale de 900px */
     .card {
 
-    margin: 0 2vh 0 2vh;
+    margin: auto;
     }
 }
+
 
