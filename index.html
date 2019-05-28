@@ -12,7 +12,7 @@
 
     <title>Book Wilders - JAVA/JEE/Spring - Mai 2019</title>
   </head>
-  <body>
+  <body class="container-fluid">
     <header>
       <!-- Menu de navigation -->
       <nav class="navbar navbar-expand-lg row">
@@ -43,70 +43,64 @@
       </nav>
       
     </header>
-    <div class="container">
-      <section id="presentation">
+    <section id="presentation">
 
-      </section>
+    </section>
 
-      <section id ="cards">
+    <section id ="cards">
 
-      </section>
+    </section>
 
-      <div class="row">
-        <section id="modal" class="col">
-          <!-- Button trigger modal -->
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-            Plus d'infos
-          </button>
+    <section id="modal">
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalCenter">
+        Plus d'infos
+      </button>
 
-          <!-- Modal -->
-          <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <img src="IMG/logo_Wild_500x500.jpg" width="100" alt="Photo de profil">
-                  <div class="modal-top-right">
-                      <h2 class="modal-title" id="exampleModalCenterTitle">Rémy Trohel</h2><br>
-                      <a href="https://github.com/RemyTrohel" target="_blank">
-                        <ion-icon class="modalIcon" name="logo-github"></ion-icon>
-                      </a>
-                      <a href="https://www.linkedin.com/in/r%C3%A9my-trohel-04a06a12a/" target="_blank">
-                        <ion-icon class="modalIcon" name="logo-linkedin"></ion-icon>
-                      </a>
+      <!-- Modal -->
+      <div class="modal fade" id="ModalCenter" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <img class="photo_profil" src="IMG/logo_Wild_500x500.jpg" width="150" alt="Photo de profil">
+              <div class="modal-top-right">
+                  <h2 id="ModalCenterTitle align-self-center">Rémy Trohel blablabla</h2>
+                  <div class="modalIcons">
+                    <a href="https://github.com/RemyTrohel" target="_blank"><ion-icon class="modalIcon" name="logo-github"></ion-icon></a>
+                    <a href="https://www.linkedin.com/in/r%C3%A9my-trohel-04a06a12a/" target="_blank"><ion-icon class="modalIcon" name="logo-linkedin"></ion-icon></a>
                   </div>
-                </div>
-                <div class="modal-body">
-                  <p>
-                    <h3>Qui suis-je ?</h3>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum hic vero adipisci dolorum illo similique magni reiciendis ullam! Ratione dolorum totam veniam quos velit itaque ad mollitia enim quaerat eos?
-                  </p>
-                  <p>
-                    <h3>Loisirs</h3>
-                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum hic vero adipisci dolorum illo similique magni reiciendis ullam! Ratione dolorum totam veniam quos velit itaque ad mollitia enim quaerat eos?
-                  </p>
-                  <p>
-                    <h3>Objectifs</h3>
-                      <ul>
-                        <li>
-                          <h5>Carrière</h5>
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        </li>
-                        <li>
-                          <h5>Mobilité</h5>
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        </li>
-                      </ul>
-                  </p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-                </div>
               </div>
             </div>
+            <div class="modal-body">
+              <p>
+                <h3>Qui suis-je ?</h3>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum hic vero adipisci dolorum illo similique magni reiciendis ullam! Ratione dolorum totam veniam quos velit itaque ad mollitia enim quaerat eos?
+              </p>
+              <p>
+                <h3>Loisirs</h3>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum hic vero adipisci dolorum illo similique magni reiciendis ullam! Ratione dolorum totam veniam quos velit itaque ad mollitia enim quaerat eos?
+              </p>
+              <p>
+                <h3>Objectifs</h3>
+                  <ul>
+                    <li>
+                      <h5>Carrière</h5>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                    <li>
+                      <h5>Mobilité</h5>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                  </ul>
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+            </div>
           </div>
-        </section>
+        </div>
       </div>
-    </div>
+    </section>
     <footer>
 
     </footer>

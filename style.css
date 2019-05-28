@@ -84,11 +84,11 @@ header .container-icon{
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 1vw;
         padding-left: 1vw;
-        }
+    }
 
     header .container-icon{
-            display:none;
-        }
+        display:none;
+    }
 
     .navbar-nav .nav-link:hover:first-child {
         border-radius:10px 0 0 10px;
@@ -100,10 +100,29 @@ header .container-icon{
 }
 
 
-
+/* -------- FENETRES MODALES -------- */
 /* Icones des fenêtres modales */
 .modal-top-right ion-icon{
     width:32px;
     height:32px;
     color:rgb(255, 31, 80);
 }
+
+.modal-top-right{
+    display:flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.ModalCenterTitle{
+    margin-top: 0;
+}
+
+.modalIcons{
+    margin-bottom: 0;
+}
+
+
+/* -------- FENETRES MODALES -------- */
