@@ -1,0 +1,45 @@
+header nav{
+    background-color: #f76d6d;
+}
+
+header .navbar-toggler{
+    border-color:white;
+}
+
+header .nav-link{
+    color:white;
+    border-right: 2px solid white;
+    padding:0;
+}
+
+header .nav-link:last-child{
+    border-right: none;
+}
+
+header .nav-link:hover{
+    color:black;
+}
+
+header .navbar-nav{
+    margin:auto 2vw auto auto;
+}
+
+header .navbar-text{
+    color:white;
+    margin:0 2vw 0 1vw;
+}
+
+header .navbar-dark{
+    opacity:100;
+}
+
+@media screen and (max-width:900px){
+    header .nav-link{
+        padding: .5rem 1rem;
+        border:none;
+    }
+
+    header .navbar-text{
+        display:none;
+    }
+}
