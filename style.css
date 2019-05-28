@@ -105,9 +105,9 @@ header .container-icon{
     flex-wrap: wrap;
 }
 
-@media screen and (max-width:900px){/* Pour tous les écrans d'une taille maximale de 900px */
-    .card {
 
+.card {
+    max-width: 18rem;
     margin: auto;
-    }
 }
+
