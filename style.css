@@ -47,6 +47,7 @@ header .container-icon{
     color:white;
     width:30px;
     height:30px;
+    margin:auto 5px;
 }
 
 .container-icon ion-icon:hover{
@@ -70,6 +71,12 @@ header .container-icon{
 
     .navbar-collapse{
         padding-bottom: 10vh;
+    }
+
+    header .navbar-nav .nav-link {
+        padding-right: 0;
+        padding-left: 30px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.4);
     }
 }
 
