@@ -80,7 +80,7 @@ header .container-icon{
     }
 }
 
-@media (min-width: 992px){
+@media screen and (min-width: 992px){
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 1vw;
         padding-left: 1vw;
@@ -112,4 +112,17 @@ header .container-icon{
 .reseaux ion-icon{
     font-size: 250%;
     color: white;
+}
+
+.baspage .btn{
+    margin-right: auto;
+}
+
+@media screen and (min-width: 991px){
+
+}
+
+@media screen and (max-width: 992px){
+    .baspage{
+        flex-direction: column;
 }
