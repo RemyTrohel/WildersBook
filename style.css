@@ -106,6 +106,27 @@ header .navbar-nav .nav-link:hover {
         border-radius:0 10px 10px 0;
     }
 }
+/* SECTION CARDS */
+
+#cards .row{
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#cards h1{
+
+    text-align: center;
+}
+
+#cards .card {
+    max-width: 300px;
+    min-width: 299px;
+}
+
+#cards .card-body ion-icon{
+    font-size: 250%;
+    color: black;
+}
 
 /* SECTION FORMATEUR */
 
@@ -167,6 +188,7 @@ header .navbar-nav .nav-link:hover {
         max-width:100%
     }
 }
+
 
 #formation .card .card-text{
     color:gray;
@@ -237,12 +259,11 @@ header .navbar-nav .nav-link:hover {
 #cards .card{
     max-width: 18rem;
     margin: auto;
+    text-align: center;
 }
 
-#cards .row{
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
+
+
 
 /* ------ FOOTER ------- */
 
