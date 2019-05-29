@@ -102,26 +102,25 @@ header .container-icon{
 
 /* -------- FENETRES MODALES -------- */
 /* Icones des fenêtres modales */
-.modal-top-right ion-icon{
+.modal-header ion-icon{
     width:32px;
     height:32px;
     color:rgb(255, 31, 80);
 }
 
-.modal-top-right{
-    display:flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
+.modal-header{
+    align-items: center;
+    position: relative;
+}
+
+.modal-title{
     text-align: center;
 }
 
-.ModalCenterTitle{
-    margin-top: 0;
-}
-
-.modalIcons{
-    margin-bottom: 0;
+.modal-icons{
+    position: absolute;
+    right:0;
+    bottom: 0;
 }
 
 
