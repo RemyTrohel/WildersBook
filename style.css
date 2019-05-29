@@ -92,11 +92,11 @@ header .navbar-nav .nav-link:hover {
     header .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 1vw;
         padding-left: 1vw;
-        }
+    }
 
     header .container-icon{
-            display:none;
-        }
+        display:none;
+    }
 
     header .navbar-nav .nav-link:hover:first-child {
         border-radius:10px 0 0 10px;
@@ -106,6 +106,32 @@ header .navbar-nav .nav-link:hover {
         border-radius:0 10px 10px 0;
     }
 }
+
+/* -------- SECTION MODALES -------- */
+/* Icones des fenêtres modales */
+#modal .modal-header ion-icon{
+    width:32px;
+    height:32px;
+    color:rgb(255, 31, 80);
+}
+
+#modal .modal-header{
+    align-items: center;
+    position: relative;
+}
+
+#modal .modal-title{
+    text-align: center;
+}
+
+#modal .modal-icons{
+    position: absolute;
+    right:0;
+    bottom: 0;
+}
+/* ------------------------------------ */
+
+
 /* SECTION FORMATEUR */
 
 /* --- FENETRE MODALE FORMATEUR --- */
