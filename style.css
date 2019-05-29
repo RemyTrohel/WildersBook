@@ -146,3 +146,22 @@ header .container-icon{
         max-width: 80%;
     }
 }
+
+/* SECTION CARDS */
+#cards{
+    display:none;
+}
+
+
+#cards .row{
+
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+#cards .card {
+    max-width: 18rem;
+    margin: auto;
+}
+
