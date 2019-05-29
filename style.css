@@ -1,3 +1,9 @@
+/* CONFIGURATION GENERALE */
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
 /* MENU DE NAVIGATION */
 
 header nav{
@@ -32,7 +38,7 @@ header .navbar-nav .nav-link {
     padding-left: 30px;
 }
 
-.navbar-collapse{
+header .navbar-collapse{
     position:relative;
 }
 
@@ -43,18 +49,18 @@ header .container-icon{
     position:absolute;
 }
 
-.container-icon ion-icon{
+header .container-icon ion-icon{
     color:white;
     width:30px;
     height:30px;
     margin:auto 5px;
 }
 
-.container-icon ion-icon:hover{
-    color:black;
+header .container-icon ion-icon:hover{
+    color:#272525;
 }
 
-.navbar-nav .nav-link:hover {
+header .navbar-nav .nav-link:hover {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
@@ -69,7 +75,7 @@ header .container-icon{
         display:none;
     }
 
-    .navbar-collapse{
+    header .navbar-collapse{
         padding-bottom: 10vh;
     }
 
@@ -81,7 +87,7 @@ header .container-icon{
 }
 
 @media screen and (min-width: 992px){
-    .navbar-expand-lg .navbar-nav .nav-link {
+    header .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 1vw;
         padding-left: 1vw;
     }
@@ -90,52 +96,187 @@ header .container-icon{
         display:none;
     }
 
-    .navbar-nav .nav-link:hover:first-child {
+    header .navbar-nav .nav-link:hover:first-child {
         border-radius:10px 0 0 10px;
     }
 
-    .navbar-nav .nav-link:hover:last-child {
+    header .navbar-nav .nav-link:hover:last-child {
         border-radius:0 10px 10px 0;
     }
 }
-
-
-/* -------- FENETRES MODALES -------- */
-/* Icones des fenêtres modales */
-.modal-header ion-icon{
-    width:32px;
-    height:32px;
-    color:rgb(255, 31, 80);
-}
-
-.modal-header{
-    align-items: center;
-    position: relative;
-}
-
-.modal-title{
-    text-align: center;
-}
-
-.modal-icons{
-    position: absolute;
-    right:0;
-    bottom: 0;
-}
-
+/* SECTION CARDS */
 
 #cards .row{
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
+#cards h1{
 
-.card{
-    max-width: 18rem;
-    margin: auto;
+    text-align: center;
 }
 
-/* FOOTER */
+#cards .card {
+    max-width: 300px;
+    min-width: 299px;
+/* fusion de 2 définition de #cards .card */
+/* faire le tri */
+    /*max-width: 18rem;*/
+    margin: auto;
+    text-align: center;
+}
+
+#cards .card-body ion-icon{
+    font-size: 250%;
+    color: black;
+}
+
+
+
+/* -------- FENETRES MODALES -------- */
+/* Icones des fenêtres modales */
+#modal .modal-header ion-icon{
+    width:32px;
+    height:32px;
+    color:rgb(255, 31, 80);
+}
+
+#modal .modal-header{
+    align-items: center;
+    position: relative;
+}
+
+#modal .modal-title{
+    text-align: center;
+}
+
+#modal .modal-icons{
+    position: absolute;
+    right:0;
+    bottom: 0;
+}
+/* ------------------------------------ */
+
+
+/* SECTION FORMATEUR */
+/* --- FENETRE MODALE FORMATEUR --- */
+
+#formation{
+    text-align:center;
+    padding-top:2vh;
+    padding-bottom:20vh;
+    margin-top:77px;
+}
+
+#formation h1{
+    padding:2vh 0;
+}
+
+#formation h1::after{
+    content:''; 
+    display:inline-block; 
+    vertical-align: middle; 
+    width: 15rem; 
+    height: 1px; 
+    background:gainsboro;
+    margin-left:2vw;
+}
+
+#formation h1::before{
+    content:''; 
+    display:inline-block; 
+    vertical-align: middle; 
+    width: 15rem; 
+    height: 1px; 
+    background:gainsboro;
+    margin-right:2vw;
+}
+
+#formation .card-deck-test{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+
+#formation .card-deck-test .card{
+    margin:2vh auto 2vh auto;
+}
+
+
+#formation .card .card-text{
+    color:gray;
+    font-size:10pt;
+}
+
+#formation .card ion-icon{
+    color:#272525;
+    height:20px;
+    width:20px;
+}
+
+#formation .card ion-icon:hover{
+    color:#f76d6d;
+    transition-duration: 0.3s;
+}
+
+#formation .card:hover{
+    box-shadow:0px 0px 10px 0px gray;
+    transition-duration: 0.3s;
+}
+
+/* --------------- FENETRE MODAL FORMATEUR ------------- */
+
+#formation .modal-content{
+    padding:30px;
+}
+
+@media screen and (min-width: 576px){
+    #formation .modal-dialog {
+        max-width: 80%;
+    }
+}
+
+/* ------------- CARD PRESENTATION FORMATION ---------------- */
+
+#formation .presentationFormation{
+    text-align:left;
+}
+
+#formation .presentationFormation .card-title{
+    font-size:23pt;
+}
+
+#formation .presentationFormation .text-muted{
+    font-weight:lighter;
+}
+
+#formation .presentationFormation a{
+    color: #f76d6d;
+    text-decoration:none;
+}
+
+#formation .presentationFormation a:hover{
+    background-color:#f76d6d;
+    color:white;
+    transition-duration:0.3s;
+}
+
+#formation .card .card-text {
+    color:#272525;
+    font-size: 12pt;
+}
+
+
+/* ------- SECTION WILDERS -------- */
+
+
+
+
+
+
+
+
+/* ------ FOOTER ------- */
 .baspage{
     background-color: grey;
     padding: 2%;
@@ -165,3 +306,4 @@ header .container-icon{
         margin-bottom: 3%;
     }
 }
+
