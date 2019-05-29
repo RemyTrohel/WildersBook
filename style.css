@@ -287,16 +287,17 @@ h1::before{
 
 /* SECTION CARDS */
 
-.cards{
+#cards .cards{
     justify-content: space-around;
     margin:30px auto;
 }
 
-.cards h1{
+#cards h1{
     text-align: center;
 }
 
-.cards .card {
+#cards .card {
+    margin: auto;
     max-width: 300px;
     min-width: 299px;
     text-align: center;
@@ -304,7 +305,7 @@ h1::before{
     margin-right: 7px;
 }
 
-.cards .card-body ion-icon{
+#cards .card-body ion-icon{
     font-size: 250%;
     color: black;
 }
