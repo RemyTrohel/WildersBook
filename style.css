@@ -32,7 +32,7 @@ header .navbar-nav .nav-link {
     padding-left: 30px;
 }
 
-.navbar-collapse{
+header .navbar-collapse{
     position:relative;
 }
 
@@ -43,18 +43,18 @@ header .container-icon{
     position:absolute;
 }
 
-.container-icon ion-icon{
+header .container-icon ion-icon{
     color:white;
     width:30px;
     height:30px;
     margin:auto 5px;
 }
 
-.container-icon ion-icon:hover{
-    color:black;
+header .container-icon ion-icon:hover{
+    color:#272525;
 }
 
-.navbar-nav .nav-link:hover {
+header .navbar-nav .nav-link:hover {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
@@ -69,7 +69,7 @@ header .container-icon{
         display:none;
     }
 
-    .navbar-collapse{
+    header .navbar-collapse{
         padding-bottom: 10vh;
     }
 
@@ -81,7 +81,7 @@ header .container-icon{
 }
 
 @media screen and (min-width: 992px){
-    .navbar-expand-lg .navbar-nav .nav-link {
+    header .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 1vw;
         padding-left: 1vw;
         }
@@ -90,11 +90,11 @@ header .container-icon{
             display:none;
         }
 
-    .navbar-nav .nav-link:hover:first-child {
+    header .navbar-nav .nav-link:hover:first-child {
         border-radius:10px 0 0 10px;
     }
 
-    .navbar-nav .nav-link:hover:last-child {
+    header .navbar-nav .nav-link:hover:last-child {
         border-radius:0 10px 10px 0;
     }
 }
@@ -103,15 +103,44 @@ header .container-icon{
 /* --- FENETRE MODALE FORMATEUR --- */
 
 #formation{
-    padding:4vh 0 4vh 0;
-    display:flex;
-    justify-content:space-around;
-    align-content:center;
+    text-align:center;
+    padding-top:2vh;
+    padding-bottom:20vh;
+    margin-top:77px;
 }
 
-#formation .card{
-    max-width:400px;
-    text-align:center;
+#formation h1{
+    padding:2vh 0;
+}
+
+#formation h1::after{
+    content:''; 
+    display:inline-block; 
+    vertical-align: middle; 
+    width: 15rem; 
+    height: 1px; 
+    background:gainsboro;
+    margin-left:2vw;
+}
+
+#formation h1::before{
+    content:''; 
+    display:inline-block; 
+    vertical-align: middle; 
+    width: 15rem; 
+    height: 1px; 
+    background:gainsboro;
+    margin-right:2vw;
+}
+
+#formation .card-deck-test{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+
+#formation .card-deck-test .card{
+    margin:2vh auto 2vh auto;
 }
 
 #formation .card .card-text{
@@ -120,7 +149,7 @@ header .container-icon{
 }
 
 #formation .card ion-icon{
-    color:#353535;
+    color:#272525;
     height:20px;
     width:20px;
 }
@@ -147,21 +176,43 @@ header .container-icon{
     }
 }
 
-/* SECTION CARDS */
+/* ------------- CARD PRESENTATION FORMATION ---------------- */
+
+#formation .presentationFormation{
+    text-align:left;
+}
+
+#formation .presentationFormation .card-title{
+    font-size:23pt;
+}
+
+#formation .presentationFormation .text-muted{
+    font-weight:lighter;
+}
+
+#formation .presentationFormation a{
+    color: #f76d6d;
+    text-decoration:none;
+}
+
+#formation .presentationFormation a:hover{
+    background-color:#f76d6d;
+    color:white;
+    transition-duration:0.3s;
+}
+
+#formation .card .card-text {
+    color:#272525;
+    font-size: 12pt;
+}
+
+
+/* ------- SECTION WILDERS -------- */
+
 #cards{
     display:none;
 }
 
-
-#cards .row{
-
-    justify-content: space-around;
-    flex-wrap: wrap;
+body{
+    font-family: 'Raleway', sans-serif;
 }
-
-
-#cards .card {
-    max-width: 18rem;
-    margin: auto;
-}
-
