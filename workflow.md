@@ -38,7 +38,7 @@ Présentation des Wilders
 	* Ses loisirs
 	* Objectifs du candidat
 		* Géographique
-		* Domaine d'activité 
+		* Domaine d'activité
         
 ### Section n°3
 Insertion d'un plug-in Google Maps pour situer la formation

@@ -1,4 +1,4 @@
-/* CONFIGURATION GENERALE */
+/* --- CONFIGURATION GENERALE --- */
 
 body{
     font-family: 'Raleway', sans-serif;
@@ -43,6 +43,7 @@ header .navbar-collapse{
 }
 
 /* ICONES SOCIALES */
+
 header .container-icon{
     bottom:1vh;
     right:0;
@@ -58,6 +59,7 @@ header .container-icon ion-icon{
 
 header .container-icon ion-icon:hover{
     color:#272525;
+    transition-duration: 0.3s;
 }
 
 header .navbar-nav .nav-link:hover {
@@ -65,6 +67,7 @@ header .navbar-nav .nav-link:hover {
 }
 
 /* MEDIA QUERIES MENU DE NAVIGATION */
+
 @media screen and (max-width:991px){
     header .nav-link{
         padding: .5rem 1rem;
@@ -90,11 +93,11 @@ header .navbar-nav .nav-link:hover {
     header .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 1vw;
         padding-left: 1vw;
-        }
+    }
 
     header .container-icon{
-            display:none;
-        }
+        display:none;
+    }
 
     header .navbar-nav .nav-link:hover:first-child {
         border-radius:10px 0 0 10px;
@@ -104,47 +107,51 @@ header .navbar-nav .nav-link:hover {
         border-radius:0 10px 10px 0;
     }
 }
-/* SECTION CARDS */
 
-#cards .row{
-    justify-content: space-around;
-    flex-wrap: wrap;
+/* -------- SECTION MODALES -------- */
+/* Icones des fenêtres modales */
+#modal .modal-header ion-icon{
+    width:32px;
+    height:32px;
+    color:rgb(255, 31, 80);
 }
 
-#cards h1{
+#modal .modal-header{
+    align-items: center;
+    position: relative;
+}
 
+#modal .modal-title{
     text-align: center;
 }
 
-#cards .card {
-    max-width: 300px;
-    min-width: 299px;
+#modal .modal-icons{
+    position: absolute;
+    right:0;
+    bottom: 0;
 }
+/* ------------------------------------ */
 
-#cards .card-body ion-icon{
-    font-size: 250%;
-    color: black;
-}
 
 /* SECTION FORMATEUR */
+
 /* --- FENETRE MODALE FORMATEUR --- */
 
 #formation{
     text-align:center;
-    padding-top:2vh;
-    padding-bottom:20vh;
     margin-top:77px;
+    padding-bottom:20px;
 }
 
 #formation h1{
-    padding:2vh 0;
+    padding:30px 0 0 0;
 }
 
 #formation h1::after{
     content:''; 
     display:inline-block; 
     vertical-align: middle; 
-    width: 15rem; 
+    width: 5rem; 
     height: 1px; 
     background:gainsboro;
     margin-left:2vw;
@@ -154,10 +161,16 @@ header .navbar-nav .nav-link:hover {
     content:''; 
     display:inline-block; 
     vertical-align: middle; 
-    width: 15rem; 
+    width: 5rem; 
     height: 1px; 
     background:gainsboro;
     margin-right:2vw;
+}
+
+@media screen and (max-width:741px){
+    #formation h1::before, #formation h1::after{
+        display:none;
+    }
 }
 
 #formation .card-deck-test{
@@ -166,8 +179,20 @@ header .navbar-nav .nav-link:hover {
     justify-content:space-around;
 }
 
+#formation .card-deck-test:nth-child(2n){
+    margin:30px auto;
+}
+
 #formation .card-deck-test .card{
-    margin:2vh auto 2vh auto;
+    margin:10px auto;
+    max-width:400px;
+}
+
+@media screen and (max-width:1240px){
+
+    #formation .card-deck-test .card{
+        max-width:100%
+    }
 }
 
 
@@ -187,7 +212,7 @@ header .navbar-nav .nav-link:hover {
     transition-duration: 0.3s;
 }
 
-#formation .card:hover{
+.card:hover{
     box-shadow:0px 0px 10px 0px gray;
     transition-duration: 0.3s;
 }
@@ -235,43 +260,69 @@ header .navbar-nav .nav-link:hover {
 }
 
 
-/* ------- SECTION WILDERS -------- */
+/* SECTION CARDS */
 
+<<<<<<< HEAD
 
+=======
+#cards .row{
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+>>>>>>> 41a0297ce559f6644b70b6b91178ef0a33c546da
 
+#cards h1{
+    text-align: center;
+}
 
+#cards .card {
+    max-width: 300px;
+    min-width: 299px;
+}
 
-
+#cards .card-body ion-icon{
+    font-size: 250%;
+    color: black;
+}
 
 
 /* ------ FOOTER ------- */
+
 .baspage{
-    background-color: grey;
-    padding: 2%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
+    background-color:#617d8a;
+    color:white;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding: 2% 0 2% 0;
 }
 
-.reseaux ion-icon{
-    font-size: 250%;
-    color: white;
+.baspage .reseaux ion-icon{
+    height:30px;
+    width:30px;
+    color:white;
+    margin:auto 5px auto 5px;
 }
 
-.baspage .btn{
-    margin-right: auto;
-    margin-left: 1%;
+.baspage .reseaux ion-icon:hover{
+    color:#272525;
+    transition-duration: 0.3s;
 }
 
-@media screen and (max-width: 991px){
+@media screen and (max-width:991px){
     .baspage{
-        flex-direction: column;  
+        flex-direction:column;
+        text-align:center;
     }
 
     .baspage .btn{
-        margin-left: auto;
-        margin-bottom: 3%;
+        margin:20px 0 20px 0;
+    }
+
+    .baspage .reseaux ion-icon{
+        height:40px;
+        width:40px;
+        margin:auto;
     }
 }
 
