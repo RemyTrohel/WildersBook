@@ -80,7 +80,7 @@ header .container-icon{
     }
 }
 
-@media (min-width: 992px){
+@media screen and (min-width: 992px){
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 1vw;
         padding-left: 1vw;
@@ -124,16 +124,44 @@ header .container-icon{
 }
 
 
-/* -------- FENETRES MODALES -------- */
 #cards .row{
-
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
 
-.card {
+.card{
     max-width: 18rem;
     margin: auto;
 }
 
+/* FOOTER */
+.baspage{
+    background-color: grey;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.reseaux ion-icon{
+    font-size: 250%;
+    color: white;
+}
+
+.baspage .btn{
+    margin-right: auto;
+    margin-left: 1%;
+}
+
+@media screen and (max-width: 991px){
+    .baspage{
+        flex-direction: column;  
+    }
+
+    .baspage .btn{
+        margin-left: auto;
+        margin-bottom: 3%;
+    }
+}
