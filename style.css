@@ -116,6 +116,7 @@ header .container-icon{
 
 .baspage .btn{
     margin-right: auto;
+    margin-left: 1%;
 }
 
 @media screen and (min-width: 991px){
