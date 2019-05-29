@@ -323,7 +323,8 @@ h1::before{
     display:flex;
     justify-content:space-around;
     align-items:center;
-    padding: 2% 0 2% 0;
+    padding: 5% 0 5% 0;
+    position:relative;
 }
 
 .baspage .reseaux ion-icon{
@@ -337,6 +338,8 @@ h1::before{
     color:#272525;
     transition-duration: 0.3s;
 }
+
+
 
 @media screen and (max-width:991px){
     .baspage{
@@ -355,6 +358,7 @@ h1::before{
     }
 }
 
+/* ---- ANCRAGE ---- */
 section{
     position:relative;
 }
