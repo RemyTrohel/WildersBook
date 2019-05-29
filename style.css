@@ -1,3 +1,9 @@
+/* CONFIGURATION GENERALE */
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
 /* MENU DE NAVIGATION */
 
 header nav{
@@ -209,10 +215,46 @@ header .navbar-nav .nav-link:hover {
 
 /* ------- SECTION WILDERS -------- */
 
-#cards{
-    display:none;
+#cards .card{
+    max-width: 18rem;
+    margin: auto;
 }
 
-body{
-    font-family: 'Raleway', sans-serif;
+#cards .row{
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
+
+
+
+/* ------ FOOTER ------- */
+.baspage{
+    background-color: grey;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.reseaux ion-icon{
+    font-size: 250%;
+    color: white;
+}
+
+.baspage .btn{
+    margin-right: auto;
+    margin-left: 1%;
+}
+
+@media screen and (max-width: 991px){
+    .baspage{
+        flex-direction: column;  
+    }
+
+    .baspage .btn{
+        margin-left: auto;
+        margin-bottom: 3%;
+    }
+}
+
