@@ -79,7 +79,7 @@ header .navbar-nav .nav-link:hover {
     }
 
     header .navbar-collapse{
-        padding-bottom: 10vh;
+        padding-bottom: 90px;
     }
 
     header .navbar-nav .nav-link {
@@ -147,13 +147,17 @@ header .navbar-nav .nav-link:hover {
     padding:30px 0 0 0;
 }
 
+#formation h1 span{
+    font-weight:bolder;
+}
+
 #formation h1::after{
     content:''; 
     display:inline-block; 
     vertical-align: middle; 
-    width: 5rem; 
+    width: 10rem; 
     height: 1px; 
-    background:gainsboro;
+    background:gray;
     margin-left:2vw;
 }
 
@@ -161,9 +165,9 @@ header .navbar-nav .nav-link:hover {
     content:''; 
     display:inline-block; 
     vertical-align: middle; 
-    width: 5rem; 
+    width: 10rem; 
     height: 1px; 
-    background:gainsboro;
+    background:gray;
     margin-right:2vw;
 }
 
@@ -184,17 +188,26 @@ header .navbar-nav .nav-link:hover {
 }
 
 #formation .card-deck-test .card{
-    margin:10px auto;
-    max-width:400px;
+    margin-top:auto;
+    max-width:500px;
+    height:553px;
+}
+
+#formation .card-header{
+    background-image:url(IMG/code.jpeg);
+    height:200px;
+    background-position:top;
 }
 
 @media screen and (max-width:1240px){
 
     #formation .card-deck-test .card{
-        max-width:100%
+        max-width:100%;
+        margin:10px auto;
+        height:auto;
     }
-}
 
+}
 
 #formation .card .card-text{
     color:gray;
@@ -326,4 +339,3 @@ header .navbar-nav .nav-link:hover {
         margin:auto;
     }
 }
-
