@@ -267,14 +267,10 @@ header .navbar-nav .nav-link:hover {
 
 /* SECTION CARDS */
 
-<<<<<<< HEAD
-
-=======
 #cards .row{
     justify-content: space-around;
     flex-wrap: wrap;
 }
->>>>>>> 41a0297ce559f6644b70b6b91178ef0a33c546da
 
 #cards h1{
     text-align: center;
@@ -330,4 +326,3 @@ header .navbar-nav .nav-link:hover {
         margin:auto;
     }
 }
-
