@@ -9,16 +9,17 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Personal CSS -->
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
 
     <title>Book Wilders - JAVA/JEE/Spring - Mai 2019</title>
   </head>
   <body class="container-fluid">
+
+    <!-- HEADER & MENU DE NAVIGATION -->
     <header>
       <!-- Menu de navigation -->
-      <nav class="navbar navbar-expand-lg row">
-        <a class="navbar-brand" href="index.html">
-          <img src="IMG/logo_Wild_500x500.jpg" width="50" class="d-inline-block align-top" alt="logo-wild">
-        </a>
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <a class="navbar-brand" href="index.html"><img src="IMG/logo_Wild_500x500.jpg" width="50" class="d-inline-block align-top" alt="logo-wild"></a>
         <span class="navbar-text">Book des Wilders JAVA/JEE</span>
         <a herf="https://wild-code-school.jobteaser.com/fr/recruiter_account/sign_in?back_to_after_login=%2Ffr%2Frecruiter_account%2Fjob_offers"><button type="button" class="btn btn-outline-light">Offre de stage</button></a>
         <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,11 +42,84 @@
           </div>
         </div>
       </nav>
-      
     </header>
 
-    <section id="presentation">
+    <!-- SECTION PRESENTATION FORMATION & FORMATEURS -->
+    <section id="formation">
+      <h1>Présentation de la formation</h1>
+      <div class="card-deck-test flex-wrap">
 
+        <!-- CARD DE CLEMENT BECHETOILLE -->
+        <div class="card order-2">
+          <img src="IMG/Clement-bechetoille-350x350.jpg" class="card-img-top" alt="Photo de profil Clément Béchetoille">
+          <div class="card-body">
+            <h5 class="card-title">Clément Béchetoille</h5>
+            <p class="card-text">Campus Manager, Reims</p>
+            <div class="formateurIcon">
+                <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="mailto:clement@wildcodeschool.fr"><ion-icon name="mail"></ion-icon></a>
+            </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#clementBechetoilleModal">Voir plus</button>
+          </div>
+        </div>
+
+        <!-- CARD PRESENTATION FORMATION -->
+        <div class="card presentationFormation order-1">
+          <div class="card-body">
+            <h5 class="card-title">Qu'est-ce que la Wild Code School ?</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Promotion JAVA / JEE / Spring | Mai 2019</h6>
+            <p class="card-text">La <a href="https://wildcodeschool.fr/reims/">Wild Code School</a> est une école proposant une formation de développeur web en 5 mois et 4 mois de stage en entreprise. Sur Reims, la formation est axée sur JAVA / JEE / SPRING, elle se trouve au <a href="https://quartierlibre.co/">Quartier Libre</a>, un espace de coworking moderne où diverses startups se cotoient. Ce site met en avant les étudiants (wilders), de la promotion "ECHO" de la ville champenoise. N'hésitez pas à découvrir leur personnalité et les contacter en cliquant sur leur profil.</p>
+          </div>
+        </div>
+
+        <!-- CARD DE ROMAIN GUILLEMOT -->
+        <div class="card order-3">
+          <img src="IMG/Romain-Guillemot-350x350.jpg" class="card-img-top" alt="Photo de profil Romain Guillemot">
+          <div class="card-body">
+            <h5 class="card-title">Romain Guillemot</h5>
+            <p class="card-text">Formateur JavaEE, Reims</p>
+            <div class="formateurIcon">
+              <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+              <a href="mailto:romain.guillemot@wildcodeschool.fr"><ion-icon name="mail"></ion-icon></a>
+            </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#romainGuillemotModal">Voir plus</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal CLEMENT BECHETOILLE -->
+      <div class="modal fade" id="clementBechetoilleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Clément Béchetoille</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">Diplômé de l’ESSCA d’Angers, Clément a d’abord travaillé à des fonctions marketing dans l’édition et les objets éducatifs avant de développer son expérience dans l’enseignement supérieur au Vietnam puis en France sur les sujets d’insertion professionnelle, de développement personnel et de recrutement innovant. Basé à Reims depuis quelques années, il s’implique dans les initiatives locales notamment l’organisation de TEDxReims. Passionné par les nouvelles approches pédagogiques, il a rejoint la Wild Code School comme Campus Manager à Reims</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Modal ROMAIN GUILLEMOT -->
+      <div class="modal fade" id="romainGuillemotModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Romain Guillemot</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">Après des études en informatique, Romain a d’abord travaillé dans une startup spécialisée dans la 3D relief. Il a également passé quelques années dans un labo universitaire à travailler étroitement avec des chercheur•euse•s spécialisé•e•s en visualisation scientifique. Attiré par le développement web et motivé par l’envie de partager son expérience, Romain s’est essayé à la vie de formateur, et il y a pris goût pour arriver aujourd’hui à la Wild Code School.</div>
+              </div>
+            </div>
+          </div>
+        </div>
     </section>
 
     <section id ="cards">
@@ -318,8 +392,18 @@
 
     </section>
 
-    <footer>
-
+    <footer class="baspage row">
+      <p>Contacter le Campus Manager : Clément Bechetoille.</p>
+      <button type="button" class="btn btn-outline-light btn-lg">Contacter</button>
+      <div class="reseaux">
+        <a href="https://wildcodeschool.fr/"><ion-icon name="finger-print"></ion-icon></a>
+        <a href="https://fr-fr.facebook.com/wildcodeschool"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="https://twitter.com/wildcodeschool"><ion-icon name="logo-twitter"></ion-icon></a>
+        <a href="https://www.linkedin.com/school/wild-codes-chool"><ion-icon name="logo-linkedin"></ion-icon></a>
+        <a href="https://www.youtube.com/channel/UCi99G_0QPx5sYsK8zdvQzfw"><ion-icon name="logo-youtube"></ion-icon></a>
+        <a href="https://www.instagram.com/wildcodeschool"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="https://github.com/WildCodeSchool"><ion-icon name="logo-github"></ion-icon></a>
+      </div>
     </footer>
     
     <!-- Optional JavaScript -->
