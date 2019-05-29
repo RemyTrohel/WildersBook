@@ -98,6 +98,7 @@ header .container-icon{
         border-radius:0 10px 10px 0;
     }
 }
+/* SECTION CARDS */
 
 #cards .row{
 
@@ -105,9 +106,19 @@ header .container-icon{
     flex-wrap: wrap;
 }
 
+#cards h1{
 
-.card {
-    max-width: 18rem;
-    margin: auto;
+    text-align: center;
 }
 
+#cards .card {
+    max-width: 300px;
+    min-width: 299px;
+    margin: auto;
+    text-align: center;
+}
+
+#cards .card-body ion-icon{
+    font-size: 250%;
+    color: black;
+}
