@@ -116,6 +116,9 @@ header .navbar-nav .nav-link:hover {
     color:rgb(255, 31, 80);
 }
 
+@media screen and (min-width: 576px){
+
+}
 #modal .modal-header{
     align-items: center;
     position: relative;
@@ -143,11 +146,12 @@ header .navbar-nav .nav-link:hover {
     padding-bottom:20px;
 }
 
-#formation h1{
+h1{
     padding:30px 0 0 0;
+    text-align: center;
 }
 
-#formation h1::after{
+h1::after{
     content:''; 
     display:inline-block; 
     vertical-align: middle; 
@@ -156,8 +160,7 @@ header .navbar-nav .nav-link:hover {
     background:gainsboro;
     margin-left:2vw;
 }
-
-#formation h1::before{
+h1::before{
     content:''; 
     display:inline-block; 
     vertical-align: middle; 
@@ -267,25 +270,27 @@ header .navbar-nav .nav-link:hover {
 
 /* SECTION CARDS */
 
-#cards .row{
+.cards{
     justify-content: space-around;
-    flex-wrap: wrap;
+    margin:30px auto;
 }
 
-#cards h1{
+.cards h1{
     text-align: center;
 }
 
-#cards .card {
+.cards .card {
     max-width: 300px;
     min-width: 299px;
+    text-align: center;
+    margin-left: 7px;
+    margin-right: 7px;
 }
 
-#cards .card-body ion-icon{
+.cards .card-body ion-icon{
     font-size: 250%;
     color: black;
 }
-
 
 /* ------ FOOTER ------- */
 
@@ -326,4 +331,3 @@ header .navbar-nav .nav-link:hover {
         margin:auto;
     }
 }
-
