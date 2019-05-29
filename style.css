@@ -119,11 +119,13 @@ header .container-icon{
     margin-left: 1%;
 }
 
-@media screen and (min-width: 991px){
-
-}
-
-@media screen and (max-width: 992px){
+@media screen and (max-width: 991px){
     .baspage{
-        flex-direction: column;
+        flex-direction: column;  
+    }
+
+    .baspage .btn{
+        margin-left: auto;
+        margin-bottom: 3%;
+    }
 }
