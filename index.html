@@ -21,7 +21,7 @@
       <nav class="navbar navbar-expand-lg fixed-top">
         <a class="navbar-brand" href="index.html"><img src="IMG/logo_Wild_500x500.jpg" width="50" class="d-inline-block align-top" alt="logo-wild"></a>
         <span class="navbar-text">Book des Wilders JAVA/JEE</span>
-        <a herf="https://wild-code-school.jobteaser.com/fr/recruiter_account/sign_in?back_to_after_login=%2Ffr%2Frecruiter_account%2Fjob_offers"><button type="button" class="btn btn-outline-light">Offre de stage</button></a>
+        <a href="https://wild-code-school.jobteaser.com/fr/recruiter_account/sign_in?back_to_after_login=%2Ffr%2Frecruiter_account%2Fjob_offers" target="_blank"><button type="button" class="btn btn-outline-light">Offre de stage</button></a>
         <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -47,7 +47,7 @@
 
     <!-- SECTION PRESENTATION FORMATION & FORMATEURS -->
     <section id="formation" class="bg-light">
-      <h1>Présentation de la formation</h1>
+      <h1><span>Welcome</span> to Wilders' Book</h1>
       <div class="card-deck-test flex-wrap">
 
         <!-- CARD DE CLEMENT BECHETOILLE -->
@@ -58,7 +58,7 @@
             <p class="card-text">Campus Manager, Reims</p>
             <div class="formateurIcon">
                 <a href="https://www.linkedin.com/in/clementbechetoille/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
-                <a href="mailto:clement@wildcodeschool.fr"><ion-icon name="mail"></ion-icon></a>
+                <a data-toggle="modal" data-target="#modalMailClement"><ion-icon name="mail"></ion-icon></a>
             </div>
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#clementBechetoilleModal">Voir plus</button>
@@ -67,6 +67,7 @@
 
         <!-- CARD PRESENTATION FORMATION -->
         <article class="card presentationFormation order-1">
+            <div class="card-header text-light bg-dark"></div>
           <div class="card-body">
             <h5 class="card-title">Qu'est-ce que la Wild Code School ?</h5>
             <h6 class="card-subtitle mb-2 text-muted">Promotion JAVA / JEE / Spring | Mai 2019</h6>
@@ -82,13 +83,29 @@
             <p class="card-text">Formateur JavaEE, Reims</p>
             <div class="formateurIcon">
               <a href="https://www.linkedin.com/in/rguillemot/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
-              <a href="mailto:romain.guillemot@wildcodeschool.fr"><ion-icon name="mail"></ion-icon></a>
+              <a data-toggle="modal" data-target="#modalMailRomain"><ion-icon name="mail"></ion-icon></a>
             </div>
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#romainGuillemotModal">Voir plus</button>
           </div>
         </article>
       </div>
+      
+      <!-- FENETRE MODAL POUR MAIL FORMATEURS -->
+      <div class="modal fade" id="modalMailRomain" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-body">romain@wildcodeschool.fr</div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="modalMailClement" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+              <div class="modal-body">clement@wildcodeschool.fr</div>
+            </div>
+          </div>
+        </div>
 
       <!-- Modal CLEMENT BECHETOILLE -->
       <div class="modal fade" id="clementBechetoilleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
