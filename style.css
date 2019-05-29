@@ -174,7 +174,7 @@ h1::before{
     margin-right:2vw;
 }
 
-@media screen and (max-width:741px){
+@media screen and (max-width:880px){
     #formation h1::before, #formation h1::after{
         display:none;
     }
