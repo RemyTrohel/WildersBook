@@ -311,7 +311,7 @@ h1::before{
 }
 
 @media screen and (max-width:400px){
-    .cards .card{
+    #cards .card{
         max-width:500px;
     }
 }
