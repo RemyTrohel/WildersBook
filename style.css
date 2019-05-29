@@ -79,7 +79,7 @@ header .navbar-nav .nav-link:hover {
     }
 
     header .navbar-collapse{
-        padding-bottom: 10vh;
+        padding-bottom: 90px;
     }
 
     header .navbar-nav .nav-link {
@@ -116,6 +116,9 @@ header .navbar-nav .nav-link:hover {
     color:rgb(255, 31, 80);
 }
 
+@media screen and (min-width: 576px){
+
+}
 #modal .modal-header{
     align-items: center;
     position: relative;
@@ -143,27 +146,31 @@ header .navbar-nav .nav-link:hover {
     padding-bottom:20px;
 }
 
-#formation h1{
+h1{
     padding:30px 0 0 0;
+    text-align: center;
 }
 
-#formation h1::after{
+h1 span{
+    font-weight:bolder;
+}
+
+h1::after{
     content:''; 
     display:inline-block; 
     vertical-align: middle; 
-    width: 5rem; 
+    width: 10rem; 
     height: 1px; 
-    background:gainsboro;
+    background:gray;
     margin-left:2vw;
 }
-
-#formation h1::before{
+h1::before{
     content:''; 
     display:inline-block; 
     vertical-align: middle; 
-    width: 5rem; 
+    width: 10rem; 
     height: 1px; 
-    background:gainsboro;
+    background:gray;
     margin-right:2vw;
 }
 
@@ -184,17 +191,26 @@ header .navbar-nav .nav-link:hover {
 }
 
 #formation .card-deck-test .card{
-    margin:10px auto;
-    max-width:400px;
+    margin-top:auto;
+    max-width:500px;
+    height:553px;
+}
+
+#formation .card-header{
+    background-image:url(IMG/code.jpeg);
+    height:200px;
+    background-position:top;
 }
 
 @media screen and (max-width:1240px){
 
     #formation .card-deck-test .card{
-        max-width:100%
+        max-width:100%;
+        margin:10px auto;
+        height:auto;
     }
-}
 
+}
 
 #formation .card .card-text{
     color:gray;
@@ -267,9 +283,9 @@ header .navbar-nav .nav-link:hover {
 
 /* SECTION CARDS */
 
-#cards .row{
+#cards .cards{
     justify-content: space-around;
-    flex-wrap: wrap;
+    margin:30px auto;
 }
 
 #cards h1{
@@ -280,13 +296,15 @@ header .navbar-nav .nav-link:hover {
     margin: auto;
     max-width: 300px;
     min-width: 299px;
+    text-align: center;
+    margin-left: 7px;
+    margin-right: 7px;
 }
 
 #cards .card-body ion-icon{
     font-size: 250%;
     color: black;
 }
-
 
 /* ------ FOOTER ------- */
 

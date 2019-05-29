@@ -21,7 +21,7 @@
       <nav class="navbar navbar-expand-lg fixed-top">
         <a class="navbar-brand" href="index.html"><img src="IMG/logo_Wild_500x500.jpg" width="50" class="d-inline-block align-top" alt="logo-wild"></a>
         <span class="navbar-text">Book des Wilders JAVA/JEE</span>
-        <a herf="https://wild-code-school.jobteaser.com/fr/recruiter_account/sign_in?back_to_after_login=%2Ffr%2Frecruiter_account%2Fjob_offers"><button type="button" class="btn btn-outline-light">Offre de stage</button></a>
+        <a href="https://wild-code-school.jobteaser.com/fr/recruiter_account/sign_in?back_to_after_login=%2Ffr%2Frecruiter_account%2Fjob_offers" target="_blank"><button type="button" class="btn btn-outline-light">Offre de stage</button></a>
         <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -47,7 +47,7 @@
 
     <!-- SECTION PRESENTATION FORMATION & FORMATEURS -->
     <section id="formation" class="bg-light">
-      <h1>Présentation de la formation</h1>
+      <h1><span>Welcome</span> to Wilders' Book</h1>
       <div class="card-deck-test flex-wrap">
 
         <!-- CARD DE CLEMENT BECHETOILLE -->
@@ -58,7 +58,7 @@
             <p class="card-text">Campus Manager, Reims</p>
             <div class="formateurIcon">
                 <a href="https://www.linkedin.com/in/clementbechetoille/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
-                <a href="mailto:clement@wildcodeschool.fr"><ion-icon name="mail"></ion-icon></a>
+                <a data-toggle="modal" data-target="#modalMailClement"><ion-icon name="mail"></ion-icon></a>
             </div>
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#clementBechetoilleModal">Voir plus</button>
@@ -67,6 +67,7 @@
 
         <!-- CARD PRESENTATION FORMATION -->
         <article class="card presentationFormation order-1">
+            <div class="card-header text-light bg-dark"></div>
           <div class="card-body">
             <h5 class="card-title">Qu'est-ce que la Wild Code School ?</h5>
             <h6 class="card-subtitle mb-2 text-muted">Promotion JAVA / JEE / Spring | Mai 2019</h6>
@@ -82,13 +83,29 @@
             <p class="card-text">Formateur JavaEE, Reims</p>
             <div class="formateurIcon">
               <a href="https://www.linkedin.com/in/rguillemot/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
-              <a href="mailto:romain.guillemot@wildcodeschool.fr"><ion-icon name="mail"></ion-icon></a>
+              <a data-toggle="modal" data-target="#modalMailRomain"><ion-icon name="mail"></ion-icon></a>
             </div>
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#romainGuillemotModal">Voir plus</button>
           </div>
         </article>
       </div>
+      
+      <!-- FENETRE MODAL POUR MAIL FORMATEURS -->
+      <div class="modal fade" id="modalMailRomain" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-body">romain@wildcodeschool.fr</div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="modalMailClement" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+              <div class="modal-body">clement@wildcodeschool.fr</div>
+            </div>
+          </div>
+        </div>
 
       <!-- Modal CLEMENT BECHETOILLE -->
       <div class="modal fade" id="clementBechetoilleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -118,279 +135,225 @@
 
     </section>
 
-    <section id ="cards">
+    <section id="cards">
 
       <h1>Les Wilders JAVA/JEE</h1>
-
-      <div class="row"> <!-- row nb1 of 4 cards -->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4"> <!-- le mb correspond au margin bottom des cards pour créer un espace entre la partie inférieur de la carte et de la carte du dessous -->
-          <div class="card" data-toggle="modal" data-target="#ModalCenter">
-                <img class="card-img-top" src="IMG/Clement-bechetoille-350x350.jpg" alt="Clément BOUAKIL">
-                <div class="card-body">
-                  <h5 class="card-title">Clément BOUAKIL</h5>
-                  <p class="card-text">J'aime le jujitsu, le karaté, le parachute et les fleurs.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Langage : JAVA/JEE</li>
-                  <li class="list-group-item">Mobilité: Marne, IDF, Pôle Nord</li>
-               </ul>
-                <div class="card-body">
-                  <a href="#" class="card-link"><ion-icon name="logo-linkedin"></ion-icon></a>
-                  <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
-                </div>
-              </div>
-        </div>
-
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-          <div class="card">
-                <img class="card-img-top" src="IMG/Clement-bechetoille-350x350.jpg" alt="Furkan CELIK">
-                <div class="card-body">
-                  <h5 class="card-title">Furkan CELIK</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Cras justo odio</li>
-                  <li class="list-group-item">Dapibus ac facilisis in</li>
-               </ul>
-                <div class="card-body">
-                  <a href="#" class="card-link"><ion-icon name="logo-linkedin"></ion-icon></a>
-                  <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
-                </div>
+      <div class="cards d-flex flex-wrap">
+        <div class="card mb-4" data-toggle="modal" data-target="#ModalCenter">
+          <img class="card-img-top" src="IMG/Clement-bechetoille-350x350.jpg" alt="Clément BOUAKIL">
+            <div class="card-body">
+              <h5 class="card-title">Clément BOUAKIL</h5>
+              <p class="card-text">J'aime le jujitsu, le karaté, le parachute et les fleurs.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Langage : JAVA/JEE</li>
+              <li class="list-group-item">Mobilité: Marne, IDF, Pôle Nord</li>
+            </ul>
+          <div class="card-body">
+            <a href="https://www.linkedin.com/in/cl%C3%A9ment-bouakil-3679b0182" class="card-link" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
           </div>
         </div>
-
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-          <div class="card">
-                <img class="card-img-top" src="IMG/Clement-bechetoille-350x350.jpg" alt="Carole CHEVALIER">
-                <div class="card-body">
-                  <h5 class="card-title">Carole CHEVALIER</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Cras justo odio</li>
-                  <li class="list-group-item">Dapibus ac facilisis in</li>
-               </ul>
-                <div class="card-body">
-                  <a href="#" class="card-link"><ion-icon name="logo-linkedin"></ion-icon></a>
-                  <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
-                </div>
+        <div class="card mb-4" data-toggle="modal" data-target="#ModalCenter">
+          <img class="card-img-top" src="IMG/Clement-bechetoille-350x350.jpg" alt="Clément BOUAKIL">
+            <div class="card-body">
+              <h5 class="card-title">Clément BOUAKIL</h5>
+              <p class="card-text">J'aime le jujitsu, le karaté, le parachute et les fleurs.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Langage : JAVA/JEE</li>
+              <li class="list-group-item">Mobilité: Marne, IDF, Pôle Nord</li>
+            </ul>
+          <div class="card-body">
+            <a href="https://www.linkedin.com/in/cl%C3%A9ment-bouakil-3679b0182" class="card-link" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
           </div>
         </div>
-
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-          <div class="card">
-                <img class="card-img-top" src="IMG/Clement-bechetoille-350x350.jpg" alt="Sébastien DUPUIS">
-                <div class="card-body">
-                  <h5 class="card-title">Sébastien DUPUIS</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Cras justo odio</li>
-                  <li class="list-group-item">Dapibus ac facilisis in</li>
-               </ul>
-                <div class="card-body">
-                  <a href="#" class="card-link"><ion-icon name="logo-linkedin"></ion-icon></a>
-                  <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
-                </div>
+        <div class="card mb-4" data-toggle="modal" data-target="#ModalCenter">
+          <img class="card-img-top" src="IMG/Clement-bechetoille-350x350.jpg" alt="Clément BOUAKIL">
+            <div class="card-body">
+              <h5 class="card-title">Clément BOUAKIL</h5>
+              <p class="card-text">J'aime le jujitsu, le karaté, le parachute et les fleurs.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Langage : JAVA/JEE</li>
+              <li class="list-group-item">Mobilité: Marne, IDF, Pôle Nord</li>
+            </ul>
+          <div class="card-body">
+            <a href="https://www.linkedin.com/in/cl%C3%A9ment-bouakil-3679b0182" class="card-link" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
           </div>
+        </div>
+        <div class="card mb-4" data-toggle="modal" data-target="#ModalCenter">
+          <img class="card-img-top" src="IMG/Clement-bechetoille-350x350.jpg" alt="Clément BOUAKIL">
+            <div class="card-body">
+              <h5 class="card-title">Clément BOUAKIL</h5>
+              <p class="card-text">J'aime le jujitsu, le karaté, le parachute et les fleurs.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Langage : JAVA/JEE</li>
+              <li class="list-group-item">Mobilité: Marne, IDF, Pôle Nord</li>
+            </ul>
+          <div class="card-body">
+            <a href="https://www.linkedin.com/in/cl%C3%A9ment-bouakil-3679b0182" class="card-link" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
+          </div>
+        </div>
+        <div class="card mb-4" data-toggle="modal" data-target="#ModalCenter">
+          <img class="card-img-top" src="IMG/Clement-bechetoille-350x350.jpg" alt="Clément BOUAKIL">
+            <div class="card-body">
+              <h5 class="card-title">Clément BOUAKIL</h5>
+              <p class="card-text">J'aime le jujitsu, le karaté, le parachute et les fleurs.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Langage : JAVA/JEE</li>
+              <li class="list-group-item">Mobilité: Marne, IDF, Pôle Nord</li>
+            </ul>
+          <div class="card-body">
+            <a href="https://www.linkedin.com/in/cl%C3%A9ment-bouakil-3679b0182" class="card-link" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
+          </div>
+        </div>
+        <div class="card mb-4" data-toggle="modal" data-target="#ModalCenter">
+          <img class="card-img-top" src="IMG/Clement-bechetoille-350x350.jpg" alt="Clément BOUAKIL">
+            <div class="card-body">
+              <h5 class="card-title">Clément BOUAKIL</h5>
+              <p class="card-text">J'aime le jujitsu, le karaté, le parachute et les fleurs.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Langage : JAVA/JEE</li>
+              <li class="list-group-item">Mobilité: Marne, IDF, Pôle Nord</li>
+            </ul>
+          <div class="card-body">
+            <a href="https://www.linkedin.com/in/cl%C3%A9ment-bouakil-3679b0182" class="card-link" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
+          </div>
+        </div>
+        <div class="card mb-4" data-toggle="modal" data-target="#ModalCenter">
+          <img class="card-img-top" src="IMG/Clement-bechetoille-350x350.jpg" alt="Clément BOUAKIL">
+            <div class="card-body">
+              <h5 class="card-title">Clément BOUAKIL</h5>
+              <p class="card-text">J'aime le jujitsu, le karaté, le parachute et les fleurs.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Langage : JAVA/JEE</li>
+              <li class="list-group-item">Mobilité: Marne, IDF, Pôle Nord</li>
+            </ul>
+          <div class="card-body">
+            <a href="https://www.linkedin.com/in/cl%C3%A9ment-bouakil-3679b0182" class="card-link" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
+          </div>
+        </div>
+        <div class="card mb-4" data-toggle="modal" data-target="#ModalCenter">
+          <img class="card-img-top" src="IMG/Clement-bechetoille-350x350.jpg" alt="Clément BOUAKIL">
+            <div class="card-body">
+              <h5 class="card-title">Clément BOUAKIL</h5>
+              <p class="card-text">J'aime le jujitsu, le karaté, le parachute et les fleurs.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Langage : JAVA/JEE</li>
+              <li class="list-group-item">Mobilité: Marne, IDF, Pôle Nord</li>
+            </ul>
+          <div class="card-body">
+            <a href="https://www.linkedin.com/in/cl%C3%A9ment-bouakil-3679b0182" class="card-link" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
+          </div>
+        </div>
+        <div class="card mb-4" data-toggle="modal" data-target="#ModalCenter">
+          <img class="card-img-top" src="IMG/Clement-bechetoille-350x350.jpg" alt="Clément BOUAKIL">
+            <div class="card-body">
+              <h5 class="card-title">Clément BOUAKIL</h5>
+              <p class="card-text">J'aime le jujitsu, le karaté, le parachute et les fleurs.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Langage : JAVA/JEE</li>
+              <li class="list-group-item">Mobilité: Marne, IDF, Pôle Nord</li>
+            </ul>
+          <div class="card-body">
+            <a href="https://www.linkedin.com/in/cl%C3%A9ment-bouakil-3679b0182" class="card-link" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
+          </div>
+        </div>
+        <div class="card mb-4" data-toggle="modal" data-target="#ModalCenter">
+          <img class="card-img-top" src="IMG/Clement-bechetoille-350x350.jpg" alt="Clément BOUAKIL">
+            <div class="card-body">
+              <h5 class="card-title">Clément BOUAKIL</h5>
+              <p class="card-text">J'aime le jujitsu, le karaté, le parachute et les fleurs.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Langage : JAVA/JEE</li>
+              <li class="list-group-item">Mobilité: Marne, IDF, Pôle Nord</li>
+            </ul>
+          <div class="card-body">
+            <a href="https://www.linkedin.com/in/cl%C3%A9ment-bouakil-3679b0182" class="card-link" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
+          </div>
+        </div>
+        <div class="card mb-4" data-toggle="modal" data-target="#ModalCenter">
+          <img class="card-img-top" src="IMG/Clement-bechetoille-350x350.jpg" alt="Clément BOUAKIL">
+            <div class="card-body">
+              <h5 class="card-title">Clément BOUAKIL</h5>
+              <p class="card-text">J'aime le jujitsu, le karaté, le parachute et les fleurs.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Langage : JAVA/JEE</li>
+              <li class="list-group-item">Mobilité: Marne, IDF, Pôle Nord</li>
+            </ul>
+          <div class="card-body">
+            <a href="https://www.linkedin.com/in/cl%C3%A9ment-bouakil-3679b0182" class="card-link" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
+          </div>
+        </div>
+        <div class="card mb-4" data-toggle="modal" data-target="#ModalCenter">
+          <img class="card-img-top" src="IMG/Clement-bechetoille-350x350.jpg" alt="Clément BOUAKIL">
+            <div class="card-body">
+              <h5 class="card-title">Clément BOUAKIL</h5>
+              <p class="card-text">J'aime le jujitsu, le karaté, le parachute et les fleurs.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Langage : JAVA/JEE</li>
+              <li class="list-group-item">Mobilité: Marne, IDF, Pôle Nord</li>
+            </ul>
+          <div class="card-body">
+            <a href="https://www.linkedin.com/in/cl%C3%A9ment-bouakil-3679b0182" class="card-link" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
+          </div>
+        </div>
+        <div class="card mb-4" data-toggle="modal" data-target="#ModalCenter">
+          <img class="card-img-top" src="IMG/Clement-bechetoille-350x350.jpg" alt="Clément BOUAKIL">
+            <div class="card-body">
+              <h5 class="card-title">Clément BOUAKIL</h5>
+              <p class="card-text">J'aime le jujitsu, le karaté, le parachute et les fleurs.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Langage : JAVA/JEE</li>
+              <li class="list-group-item">Mobilité: Marne, IDF, Pôle Nord</li>
+            </ul>
+          <div class="card-body">
+            <a href="https://www.linkedin.com/in/cl%C3%A9ment-bouakil-3679b0182" class="card-link" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
+          </div>
+        </div>
+        <div class="card mb-4" data-toggle="modal" data-target="#ModalCenter">
+          <img class="card-img-top" src="IMG/Clement-bechetoille-350x350.jpg" alt="Clément BOUAKIL">
+            <div class="card-body">
+              <h5 class="card-title">Clément BOUAKIL</h5>
+              <p class="card-text">J'aime le jujitsu, le karaté, le parachute et les fleurs.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Langage : JAVA/JEE</li>
+              <li class="list-group-item">Mobilité: Marne, IDF, Pôle Nord</li>
+            </ul>
+          <div class="card-body">
+            <a href="https://www.linkedin.com/in/cl%C3%A9ment-bouakil-3679b0182" class="card-link" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
+          </div>
+        </div>
       </div>
-
-
-      <div class="row"> <!-- row nb2 of 4 cards -->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-          <div class="card">
-                <img class="card-img-top" src="IMG/Clement-bechetoille-350x350.jpg" alt="Léa GOARANT-ROCHER">
-                <div class="card-body">
-                  <h5 class="card-title">Léa GOARANT-ROCHER</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Cras justo odio</li>
-                  <li class="list-group-item">Dapibus ac facilisis in</li>
-               </ul>
-                <div class="card-body">
-                  <a href="#" class="card-link"><ion-icon name="logo-linkedin"></ion-icon></a>
-                  <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
-                </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-          <div class="card">
-                <img class="card-img-top" src="IMG/Clement-bechetoille-350x350.jpg" alt="Vincent GUEGAN">
-                <div class="card-body">
-                  <h5 class="card-title">Vincent GUEGAN</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Cras justo odio</li>
-                  <li class="list-group-item">Dapibus ac facilisis in</li>
-               </ul>
-                <div class="card-body">
-                  <a href="#" class="card-link"><ion-icon name="logo-linkedin"></ion-icon></a>
-                  <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
-                </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-          <div class="card">
-                <img class="card-img-top" src="IMG/Clement-bechetoille-350x350.jpg" alt="Cecil MILLERIOUX">
-                <div class="card-body">
-                  <h5 class="card-title">Cecil MILLERIOUX</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Cras justo odio</li>
-                  <li class="list-group-item">Dapibus ac facilisis in</li>
-               </ul>
-                <div class="card-body">
-                  <a href="#" class="card-link"><ion-icon name="logo-linkedin"></ion-icon></a>
-                  <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
-                </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-          <div class="card">
-                <img class="card-img-top" src="IMG/Clement-bechetoille-350x350.jpg" alt="Nicolas HURAUX">
-                <div class="card-body">
-                  <h5 class="card-title">Nicolas HURAUX</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Cras justo odio</li>
-                  <li class="list-group-item">Dapibus ac facilisis in</li>
-               </ul>
-                <div class="card-body">
-                  <a href="#" class="card-link"><ion-icon name="logo-linkedin"></ion-icon></a>
-                  <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
-                </div>
-          </div>
-      </div>
-
-      <div class="row"> <!-- row nb3 of 4 cards -->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-          <div class="card">
-                <img class="card-img-top" src="IMG/Clement-bechetoille-350x350.jpg" alt="Anthony LEFEVRE">
-                <div class="card-body">
-                  <h5 class="card-title">Anthony LEFEVRE</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Cras justo odio</li>
-                  <li class="list-group-item">Dapibus ac facilisis in</li>
-               </ul>
-                <div class="card-body">
-                  <a href="#" class="card-link"><ion-icon name="logo-linkedin"></ion-icon></a>
-                  <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
-                </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-          <div class="card">
-                <img class="card-img-top" src="IMG/Clement-bechetoille-350x350.jpg" alt="Bryan NUNINGER">
-                <div class="card-body">
-                  <h5 class="card-title">Bryan NUNINGER</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Cras justo odio</li>
-                  <li class="list-group-item">Dapibus ac facilisis in</li>
-               </ul>
-                <div class="card-body">
-                  <a href="#" class="card-link"><ion-icon name="logo-linkedin"></ion-icon></a>
-                  <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
-                </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-          <div class="card">
-                <img class="card-img-top" src="IMG/Clement-bechetoille-350x350.jpg" alt="Julien RISACHER">
-                <div class="card-body">
-                  <h5 class="card-title">Julien RISACHER</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Cras justo odio</li>
-                  <li class="list-group-item">Dapibus ac facilisis in</li>
-               </ul>
-                <div class="card-body">
-                  <a href="#" class="card-link"><ion-icon name="logo-linkedin"></ion-icon></a>
-                  <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
-                </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-          <div class="card">
-                <img class="card-img-top" src="IMG/Clement-bechetoille-350x350.jpg" alt="Youssef SABOUNI">
-                <div class="card-body">
-                  <h5 class="card-title">Youssef SABOUNI</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Cras justo odio</li>
-                  <li class="list-group-item">Dapibus ac facilisis in</li>
-               </ul>
-                <div class="card-body">
-                  <a href="#" class="card-link"><ion-icon name="logo-linkedin"></ion-icon></a>
-                  <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
-                </div>
-          </div>
-      </div>
-
-      <div class="row"> <!-- row nb4 of 2 cards -->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-          <div class="card">
-                <img class="card-img-top" src="IMG/Clement-bechetoille-350x350.jpg" alt="Stéphane THOMIN">
-                <div class="card-body">
-                  <h5 class="card-title">Stéphane THOMIN</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Cras justo odio</li>
-                  <li class="list-group-item">Dapibus ac facilisis in</li>
-               </ul>
-                <div class="card-body">
-                  <a href="#" class="card-link"><ion-icon name="logo-linkedin"></ion-icon></a>
-                  <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
-                </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-          <div class="card">
-                <img class="card-img-top" src="IMG/Clement-bechetoille-350x350.jpg" alt="Rémy TROHEL">
-                <div class="card-body">
-                  <h5 class="card-title">Rémy TROHEL</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Cras justo odio</li>
-                  <li class="list-group-item">Dapibus ac facilisis in</li>
-               </ul>
-                <div class="card-body">
-                  <a href="#" class="card-link"><ion-icon name="logo-linkedin"></ion-icon></a>
-                  <a href="#" class="card-link"><ion-icon name="logo-github"></ion-icon></a>
-                </div>
-          </div>
-        </div>
-
-      </div>
-
-
     </section>
 
+      <!------------------------------------------- Modal Wilders --------------------------------------->
     <section id="modal">
-      <!-- Button trigger modal -->
-      <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#ModalCenter">
-        Plus d'infos
-      </button>
-
-      <!-- Modal -->
       <div class="modal fade" id="ModalCenter" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
