@@ -151,6 +151,10 @@ h1{
     text-align: center;
 }
 
+#formation h1{
+    margin-bottom:20px;
+}
+
 h1 span{
     font-weight:bolder;
 }
@@ -175,7 +179,7 @@ h1::before{
 }
 
 @media screen and (max-width:880px){
-    #formation h1::before, #formation h1::after{
+    h1::before, h1::after{
         display:none;
     }
 }
@@ -305,6 +309,12 @@ h1::before{
     color: black;
 }
 
+@media screen and (max-width:400px){
+    .cards .card{
+        max-width:500px;
+    }
+}
+
 /* ------ FOOTER ------- */
 
 .baspage{
@@ -343,4 +353,17 @@ h1::before{
         width:40px;
         margin:auto;
     }
+}
+
+section{
+    position:relative;
+}
+
+.ancre{
+    position:absolute;
+    left:0;
+    top:0;
+    height:77px;
+    margin-top:-77px;
+    visibility:hidden;
 }
