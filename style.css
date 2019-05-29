@@ -59,6 +59,7 @@ header .container-icon ion-icon{
 
 header .container-icon ion-icon:hover{
     color:#272525;
+    transition-duration: 0.3s;
 }
 
 header .navbar-nav .nav-link:hover {
@@ -139,6 +140,7 @@ header .navbar-nav .nav-link:hover {
 #formation{
     text-align:center;
     margin-top:77px;
+    padding-bottom:20px;
 }
 
 #formation h1{
@@ -201,8 +203,13 @@ header .navbar-nav .nav-link:hover {
 
 #formation .card ion-icon{
     color:#272525;
-    height:20px;
-    width:20px;
+    height:30px;
+    width:30px;
+    margin:0 5px 0 5px;
+}
+
+#formation .card .btn{
+    margin-top:10px;
 }
 
 #formation .card ion-icon:hover{
@@ -283,32 +290,40 @@ header .navbar-nav .nav-link:hover {
 /* ------ FOOTER ------- */
 
 .baspage{
-    background-color: grey;
-    padding: 2%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
+    background-color:#617d8a;
+    color:white;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding: 2% 0 2% 0;
 }
 
-.reseaux ion-icon{
-    font-size: 250%;
-    color: white;
+.baspage .reseaux ion-icon{
+    height:30px;
+    width:30px;
+    color:white;
+    margin:auto 5px auto 5px;
 }
 
-.baspage .btn{
-    margin-right: auto;
-    margin-left: 1%;
+.baspage .reseaux ion-icon:hover{
+    color:#272525;
+    transition-duration: 0.3s;
 }
 
-@media screen and (max-width: 991px){
+@media screen and (max-width:991px){
     .baspage{
-        flex-direction: column;  
+        flex-direction:column;
+        text-align:center;
     }
 
     .baspage .btn{
-        margin-left: auto;
-        margin-bottom: 3%;
+        margin:20px 0 20px 0;
+    }
+
+    .baspage .reseaux ion-icon{
+        height:40px;
+        width:40px;
+        margin:auto;
     }
 }
 
