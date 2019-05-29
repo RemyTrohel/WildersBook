@@ -277,6 +277,7 @@ header .navbar-nav .nav-link:hover {
 }
 
 #cards .card {
+    margin: auto;
     max-width: 300px;
     min-width: 299px;
 }
