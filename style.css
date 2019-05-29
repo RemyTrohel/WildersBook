@@ -99,6 +99,17 @@ header .container-icon{
     }
 }
 
+#cards .row{
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.card{
+    max-width: 18rem;
+    margin: auto;
+}
+
 /* FOOTER */
 .baspage{
     background-color: grey;
