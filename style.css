@@ -203,8 +203,13 @@ header .navbar-nav .nav-link:hover {
 
 #formation .card ion-icon{
     color:#272525;
-    height:20px;
-    width:20px;
+    height:30px;
+    width:30px;
+    margin:0 5px 0 5px;
+}
+
+#formation .card .btn{
+    margin-top:10px;
 }
 
 #formation .card ion-icon:hover{
