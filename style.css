@@ -186,14 +186,11 @@ header .navbar-nav .nav-link:hover {
 
 
 
-
 /* SECTION FORMATEUR */
-
 /* --- FENETRE MODALE FORMATEUR --- */
 
 #formation{
     text-align:center;
-    margin-top:77px;
     padding-bottom:20px;
 }
 
@@ -340,6 +337,10 @@ h1::before{
 
 
 /* SECTION CARDS */
+
+#cards{
+    margin-top:77px;
+}
 
 #cards .list-group-item{
     height:80px;
