@@ -47,10 +47,12 @@ Insertion d'un plug-in Google Maps pour situer la formation
 Footer avec lien vers réseaux sociaux de la Wild  
 Contact de Clément Bechetoille
 
-## Workflow
+## Workflow (règle à respecter)
 Utilisation du camelCase  
 Utilisation de Git et GitHub
 Bien mettre les différentes commentaires sur les fichiers HTML et CSS
+Création d'une branche DEV pour test, fusion avec master seulement après concertation
+Faire un git status a chaque fois avant de push
 
 
 ## Informations à récupérer pour fiche wilder
@@ -64,3 +66,9 @@ Bien mettre les différentes commentaires sur les fichiers HTML et CSS
 * Top compétences (exemple Méthode AGILE, JAVA, Photoshop etc...)
 * Mobilité
 * Téléphone (optionnel)
+
+## Tâches
+* Clément : navbar et présentation
+* Stéphane : footer et présentation
+* Vincent : Fenêtre modales
+* Rémy : Cards

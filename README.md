@@ -1,10 +1,23 @@
-# Projet1
+# Projet n°1 : Book des wilders
+## Contexte :
 
-### Book des Wilders
-Le projet consiste à développer un site web responsive permettant aux recruteurs d'avoir accès aux fiches des (élèves) Wilders de la formation JAVA/JEE/SPRING du mois de Mai 2019.  
-Le site web devra être **responsive**.  
-Travail de groupe réunissant :
+**Le groupe** :
 * Clément Bouakil
+* Vincent Guegan
 * Rémy Trohel
 * Stéphane Thomin
-* Vincent Guegan
+
+**Localisation** : Wild Code School - Reims
+_Promotion JAVA mai 2019_
+
+Dans le cadre de notre premier projet, nous devons réaliser un site internet présentant les élèves de la promotion en cours.
+
+## Objectifs : 
+
+ 1. Rendre le site **responsive** : adaptable sur les différents écrans de navigation.
+ 2. Permettre aux recruteurs de **découvrir** et **contacter**  les candidats et les formateurs.
+ 3. Présenter le contexte et l'objectif du site.
+
+## Maquette initiale :
+
+[Découvrir la maquette](https://raw.githubusercontent.com/RemyTrohel/BookWilders/master/wirefrime.jpeg)
