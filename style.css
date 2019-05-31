@@ -240,6 +240,8 @@ h1::before{
 .card:hover{
     box-shadow:0px 0px 10px 0px gray;
     transition-duration: 0.3s;
+    color: #ff8a25;
+    
 }
 
 /* --------------- FENETRE MODAL FORMATEUR ------------- */
