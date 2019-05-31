@@ -109,16 +109,62 @@ header .navbar-nav .nav-link:hover {
 }
 
 /* -------- SECTION MODALES -------- */
+
+/* ---- Font size h2 modal---- */
+@media screen and (max-width: 599px){
+    #modal h2{
+        font-size:6vw;
+    }
+}
+@media screen and (min-width: 600px){
+    #modal h2{
+        font-size:4.5vw;
+    }
+}
+@media screen and (min-width: 768px){
+    #modal h2{
+        font-size:3.5vw;
+    }
+}
+@media screen and (min-width: 992px){
+    #modal h2{
+        font-size:3vw;
+    }
+}
+@media screen and (min-width: 1200px){
+    #modal h2{
+        font-size:2.5vw;
+    }
+}
+/* ----------------------------- */
+
+/* ---- Width modal---- */
+@media screen and (min-width: 992px){
+    #modal  .modal-dialog {
+        max-width: 60%;
+    }
+}
+@media screen and (min-width: 1200px){
+    #modal  .modal-dialog {
+        max-width: 50%;
+    }
+}
+/* ----------------------------- */
+
 /* Icones des fenêtres modales */
 #modal .modal-header ion-icon{
-    width:32px;
-    height:32px;
-    color:rgb(255, 31, 80);
+    color:#272525;
+    height:30px;
+    width:30px;
+    margin:0 5px 0 5px;
 }
 
-@media screen and (min-width: 576px){
-
+#modal .modal-header ion-icon:hover{
+    color:#f76d6d;
+    transition-duration: 0.3s;
 }
+/* ----------------------------- */
+
 #modal .modal-header{
     align-items: center;
     position: relative;
@@ -126,6 +172,9 @@ header .navbar-nav .nav-link:hover {
 
 #modal .modal-title{
     text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    padding-left:15px;
 }
 
 #modal .modal-icons{
@@ -134,6 +183,8 @@ header .navbar-nav .nav-link:hover {
     bottom: 0;
 }
 /* ------------------------------------ */
+
+
 
 
 /* SECTION FORMATEUR */
@@ -149,6 +200,7 @@ header .navbar-nav .nav-link:hover {
 h1{
     padding:30px 0 0 0;
     text-align: center;
+
 }
 
 #formation h1{
@@ -307,10 +359,20 @@ h1::before{
     margin-right: 7px;
 }
 
+/* Icones des cards */
 #cards .card-body ion-icon{
-    font-size: 250%;
-    color: black;
+    color:#272525;
+    height:30px;
+    width:30px;
+    margin:0 5px 0 5px;
 }
+
+#cards .card-body ion-icon:hover{
+    color:#f76d6d;
+    transition-duration: 0.3s;
+}
+/* ----------------------------- */
+
 
 @media screen and (max-width:400px){
     #cards .card{
