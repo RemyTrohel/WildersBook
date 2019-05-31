@@ -443,3 +443,7 @@ section{
     margin-top:-77px;
     visibility:hidden;
 }
+
+ion-icon, .card{
+    cursor:pointer;
+}
