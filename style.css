@@ -153,12 +153,17 @@ header .navbar-nav .nav-link:hover {
 
 /* Icones des fenêtres modales */
 #modal .modal-header ion-icon{
-    width:32px;
-    height:32px;
-    color:rgb(255, 31, 80);
+    color:#272525;
+    height:30px;
+    width:30px;
+    margin:0 5px 0 5px;
 }
 
-
+#modal .modal-header ion-icon:hover{
+    color:#f76d6d;
+    transition-duration: 0.3s;
+}
+/* ----------------------------- */
 
 #modal .modal-header{
     align-items: center;
@@ -177,9 +182,9 @@ header .navbar-nav .nav-link:hover {
     right:0;
     bottom: 0;
 }
-
-
 /* ------------------------------------ */
+
+
 
 
 /* SECTION FORMATEUR */
@@ -354,10 +359,20 @@ h1::before{
     margin-right: 7px;
 }
 
+/* Icones des cards */
 #cards .card-body ion-icon{
-    font-size: 250%;
-    color: black;
+    color:#272525;
+    height:30px;
+    width:30px;
+    margin:0 5px 0 5px;
 }
+
+#cards .card-body ion-icon:hover{
+    color:#f76d6d;
+    transition-duration: 0.3s;
+}
+/* ----------------------------- */
+
 
 @media screen and (max-width:400px){
     #cards .card{
