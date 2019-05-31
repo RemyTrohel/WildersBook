@@ -109,6 +109,48 @@ header .navbar-nav .nav-link:hover {
 }
 
 /* -------- SECTION MODALES -------- */
+
+/* ---- Font size h2 modal---- */
+@media screen and (max-width: 599px){
+    #modal h2{
+        font-size:6vw;
+    }
+}
+@media screen and (min-width: 600px){
+    #modal h2{
+        font-size:4.5vw;
+    }
+}
+@media screen and (min-width: 768px){
+    #modal h2{
+        font-size:3.5vw;
+    }
+}
+@media screen and (min-width: 992px){
+    #modal h2{
+        font-size:3vw;
+    }
+}
+@media screen and (min-width: 1200px){
+    #modal h2{
+        font-size:2.5vw;
+    }
+}
+/* ----------------------------- */
+
+/* ---- Width modal---- */
+@media screen and (min-width: 992px){
+    #modal  .modal-dialog {
+        max-width: 60%;
+    }
+}
+@media screen and (min-width: 1200px){
+    #modal  .modal-dialog {
+        max-width: 50%;
+    }
+}
+/* ----------------------------- */
+
 /* Icones des fenêtres modales */
 #modal .modal-header ion-icon{
     width:32px;
@@ -116,9 +158,8 @@ header .navbar-nav .nav-link:hover {
     color:rgb(255, 31, 80);
 }
 
-@media screen and (min-width: 576px){
 
-}
+
 #modal .modal-header{
     align-items: center;
     position: relative;
@@ -126,6 +167,9 @@ header .navbar-nav .nav-link:hover {
 
 #modal .modal-title{
     text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    padding-left:15px;
 }
 
 #modal .modal-icons{
@@ -133,6 +177,8 @@ header .navbar-nav .nav-link:hover {
     right:0;
     bottom: 0;
 }
+
+
 /* ------------------------------------ */
 
 
@@ -149,6 +195,7 @@ header .navbar-nav .nav-link:hover {
 h1{
     padding:30px 0 0 0;
     text-align: center;
+
 }
 
 #formation h1{
