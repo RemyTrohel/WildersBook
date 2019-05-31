@@ -341,6 +341,13 @@ h1::before{
 
 /* SECTION CARDS */
 
+#cards .list-group-item{
+    height:80px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
 #cards .cards{
     justify-content: space-around;
     margin:30px auto;
