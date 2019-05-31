@@ -324,7 +324,7 @@ h1::before{
     display:flex;
     justify-content:space-around;
     align-items:center;
-    padding: 5% 0 5% 0;
+    padding: 3% 0 3% 0;
     position:relative;
 }
 
