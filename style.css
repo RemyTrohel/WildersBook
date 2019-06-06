@@ -8,6 +8,7 @@ body{
 
 header nav{
     background-color: #f76d6d;
+    color:white;
 }
 
 header .navbar-toggler{
@@ -15,12 +16,11 @@ header .navbar-toggler{
 }
 
 header .nav-link{
+    border-right: 2px solid white; /* permet de faire un séparateur entre les <li> */
     color:white;
-    border-right: 2px solid white;
-    padding:0;
 }
 
-header .nav-link:last-child{
+header .nav-link:last-child{ /* permet de supprimer le border-right sur le dernier <li> du menu */
     border-right: none;
 }
 
@@ -29,7 +29,6 @@ header .navbar-nav{
 }
 
 header .navbar-text{
-    color:white;
     margin:0 2vw 0 1vw;
 }
 
