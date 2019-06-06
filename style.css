@@ -32,11 +32,6 @@ header .navbar-text{
     margin:0 2vw 0 1vw;
 }
 
-header .navbar-nav .nav-link {
-    padding-right: 0;
-    padding-left: 30px;
-}
-
 header .navbar-collapse{
     position:relative;
 }
