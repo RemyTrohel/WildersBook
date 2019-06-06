@@ -406,7 +406,10 @@ h1::before{
     transition-duration: 0.3s;
 }
 
-
+.creators {
+    font-size: 75%;
+    margin-top: 10px; 
+}
 
 @media screen and (max-width:991px){
     .baspage{
@@ -422,6 +425,10 @@ h1::before{
         height:40px;
         width:40px;
         margin:auto;
+    }
+
+    .creators {
+        margin: 5px 5px 0 5px;
     }
 }
 
