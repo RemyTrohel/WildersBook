@@ -26,7 +26,6 @@ $(document).ready(function() {
     $('.js-tooltip').tooltip();
 });
 
-
 $("body").on('click', '.js-copy', function() {
     var text = $(this).attr('data-copy');
     var el = $(this);

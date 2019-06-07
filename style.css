@@ -219,7 +219,7 @@ ion-icon, .card{
 
 #modal .modal-icons{
     position: absolute;
-    right:0;
+    right:20px;
     bottom: 0;
 }
 
