@@ -19,7 +19,7 @@
     <header>
       <!-- Menu de navigation -->
       <nav class="navbar navbar-expand-lg fixed-top">
-        <a class="navbar-brand" href="index.html"><img src="IMG/logo_Wild_500x500.jpg" width="50" class="d-inline-block align-top" alt="logo-wild"></a>
+        <a class="navbar-brand" href="#"><img src="IMG/logo_Wild_500x500.jpg" width="50" class="d-inline-block align-top" alt="logo-wild"></a>
         <span class="navbar-text">Book des Wilders JAVA/JEE</span>
         <a href="https://wild-code-school.jobteaser.com/fr/recruiter_account/sign_in?back_to_after_login=%2Ffr%2Frecruiter_account%2Fjob_offers" target="_blank"><button type="button" class="btn btn-light">Offre de stage</button></a>
         <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,8 +27,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#sectionFormation">La formation</a>
             <a class="nav-item nav-link" href="#sectionCARDS">Nos wilders</a>
+            <a class="nav-item nav-link active" href="#sectionFormation">La formation</a>
             <a class="nav-item nav-link" href="#maps">Nous trouver</a>
             <a class="nav-item nav-link" href="#footer">Nous contacter</a>
           </div>
@@ -51,7 +51,8 @@
         <span id="sectionCARDS" class="ancre">a</span>
         <h1>Les Wilders JAVA/JEE</h1>
         <div class="cards d-flex flex-wrap">
-          <div class="card mb-4" data-toggle="modal" data-target="#ModalClementBouakil">
+          <div class="card mb-4">
+            <div data-toggle="modal" data-target="#ModalClementBouakil">
             <img class="card-img-top" src="IMG/clementBouakil-350x350.jpg" alt="Clement BOUAKIL">
               <div class="card-body">
                 <h5 class="card-title">Clement BOUAKIL</h5>
@@ -59,13 +60,17 @@
               <ul class="list-group list-group-flush">
                   <li class="list-group-item"><ion-icon name="pin"></ion-icon> Marne, Paris, Charleville</li>
               </ul>
+            </div>
             <div class="card-body">
               <a href="https://www.linkedin.com/in/clément-bouakil-3679b0182  " class="card-link" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
               <a href="https://github.com/clementbouakil" class="card-link" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
-              <span class="card-link"><ion-icon name="mail"></ion-icon></span>
+              <span class="card-link"><ion-icon name="mail" class="modalIcon js-tooltip js-copy" data-toggle="tooltip" 
+                data-placement="bottom" data-copy="bouakil.clement.pro@gmail.com" title="Copy mail"></ion-icon>
+              </span>
             </div>
           </div>
-          <div class="card mb-4" data-toggle="modal" data-target="#ModalFurkanCelik">
+          <div class="card mb-4">
+            <div data-toggle="modal" data-target="#ModalFurkanCelik">
             <img class="card-img-top" src="IMG/furkanCelik-350x350.jpg" alt="Furkan CELIK">
               <div class="card-body">
                 <h5 class="card-title">Furkan CELIK</h5>
@@ -73,13 +78,17 @@
               <ul class="list-group list-group-flush">
                 <li class="list-group-item"><ion-icon name="pin"></ion-icon>Marne, Île-de-France, Etranger</li>
               </ul>
+            </div>
             <div class="card-body">
               <a href="https://www.linkedin.com/in/furkan-celik-8950a8138//" class="card-link" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
               <a href="https://github.com/fufu5146" class="card-link" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
-              <span class="card-link"><ion-icon name="mail"></ion-icon></span>
+              <span class="card-link"><ion-icon name="mail" class="modalIcon js-tooltip js-copy" data-toggle="tooltip" 
+                data-placement="bottom" data-copy="c.furkan.contact@gmail.com" title="Copy mail"></ion-icon>
+              </span>
             </div>
           </div>
-          <div class="card mb-4" data-toggle="modal" data-target="#ModalCaroleChevalier">
+          <div class="card mb-4">
+            <div data-toggle="modal" data-target="#ModalCaroleChevalier">
             <img class="card-img-top" src="IMG/caroleChevalier-350x350.jpg" alt="Carole CHEVALIER">
               <div class="card-body">
                 <h5 class="card-title">Carole CHEVALIER</h5>
@@ -87,13 +96,17 @@
               <ul class="list-group list-group-flush">
                 <li class="list-group-item"><ion-icon name="pin"></ion-icon> Marne, Paris, Bruxelles</li>
               </ul>
+            </div>
             <div class="card-body">
               <a href="https://www.linkedin.com/in/chevalier-carole-2b289016/" class="card-link" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
               <a href="https://github.com/cakocako" class="card-link" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
-              <span class="card-link"><ion-icon name="mail"></ion-icon></span>
+              <span class="card-link"><ion-icon name="mail" class="modalIcon js-tooltip js-copy" data-toggle="tooltip" 
+                data-placement="bottom" data-copy="carolechevalier.design@orange.fr" title="Copy mail"></ion-icon>
+              </span>
             </div>
           </div>
-          <div class="card mb-4" data-toggle="modal" data-target="#ModalSebastienDupuis">
+          <div class="card mb-4">
+            <div data-toggle="modal" data-target="#ModalSebastienDupuis">
             <img class="card-img-top" src="IMG/sebastienDupuis-350x350.jpg" alt="Sebastien DUPUIS">
               <div class="card-body">
                 <h5 class="card-title">Sebastien DUPUIS</h5>
@@ -101,27 +114,35 @@
               <ul class="list-group list-group-flush">
                 <li class="list-group-item"><ion-icon name="pin"></ion-icon>Reims</li>
               </ul>
+            </div>
             <div class="card-body">
               <a href="https://www.linkedin.com/in/s%C3%A9bastien-dupuis-741a19178/" class="card-link" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
               <a href="https://github.com/Seb-Dupuis" class="card-link" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
-              <span class="card-link"><ion-icon name="mail"></ion-icon></span>
+              <span class="card-link"><ion-icon name="mail" class="modalIcon js-tooltip js-copy" data-toggle="tooltip" 
+                data-placement="bottom" data-copy="sebastien-dupuis@laposte.net" title="Copy mail"></ion-icon>
+              </span>
             </div>
           </div>
-          <div class="card mb-4" data-toggle="modal" data-target="#ModalLeaGoarantRocher">
+          <div class="card mb-4">
+            <div data-toggle="modal" data-target="#ModalLeaGoarantRocher">
             <img class="card-img-top" src="IMG/leaGoarantRocher-350x350.jpg" alt="Lea GOARANT-ROCHER">
               <div class="card-body">
                 <h5 class="card-title">Lea GOARANT-ROCHER</h5>
               </div>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item"><ion-icon name="pin"></ion-icon><p>Marne, Île-de-France</p></li>
+                <li class="list-group-item"><ion-icon name="pin"></ion-icon>Marne, Île-de-France</li>
               </ul>
+            </div>
             <div class="card-body">
               <a href="https://www.linkedin.com/in/léa-goarant-rocher-6aa673187/" class="card-link" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
               <a href="https://github.com/LeaGoarant" class="card-link" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
-              <span class="card-link"><ion-icon name="mail"></ion-icon></span>
+              <span class="card-link"><ion-icon name="mail" class="modalIcon js-tooltip js-copy" data-toggle="tooltip" 
+                data-placement="bottom" data-copy="leagoarant@msn.com" title="Copy mail"></ion-icon>
+              </span>
             </div>
           </div>
-          <div class="card mb-4" data-toggle="modal" data-target="#ModalVincentGuegan">
+          <div class="card mb-4">
+            <div data-toggle="modal" data-target="#ModalVincentGuegan">
             <img class="card-img-top" src="IMG/vincentGuegan-350x350.jpg" alt="Vincent GUEGAN">
               <div class="card-body">
                 <h5 class="card-title">Vincent GUEGAN</h5>
@@ -129,13 +150,17 @@
               <ul class="list-group list-group-flush">
                 <li class="list-group-item"><ion-icon name="pin"></ion-icon> Marne, Île-de-France</li>
               </ul>
+            </div>
             <div class="card-body">
               <a href="https://www.linkedin.com/in/vincent-guegan/" class="card-link" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
               <a href="https://github.com/vincentGuegan" class="card-link" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
-              <span class="card-link"><ion-icon name="mail"></ion-icon></span>
+              <span class="card-link"><ion-icon name="mail" class="modalIcon js-tooltip js-copy" data-toggle="tooltip" 
+                data-placement="bottom" data-copy="gueganvincent@gmail.com" title="Copy mail"></ion-icon>
+              </span>
             </div>
           </div>
-          <div class="card mb-4" data-toggle="modal" data-target="#ModalNicolasHuraux">
+          <div class="card mb-4">
+            <div data-toggle="modal" data-target="#ModalNicolasHuraux">
             <img class="card-img-top" src="IMG/nicolasHuraux-350x350.jpg" alt="Nicolas HURAUX">
               <div class="card-body">
                 <h5 class="card-title">Nicolas HURAUX</h5>
@@ -143,27 +168,35 @@
               <ul class="list-group list-group-flush">
                 <li class="list-group-item"><ion-icon name="pin"></ion-icon>Marne, Île-de-France</li>
               </ul>
+            </div>
             <div class="card-body">
               <a href="www.linkedin.com/in/nicolas-huraux" class="card-link" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
               <a href="https://github.com/NicolasHuraux" class="card-link" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
-              <span class="card-link"><ion-icon name="mail"></ion-icon></span>
+              <span class="card-link"><ion-icon name="mail" class="modalIcon js-tooltip js-copy" data-toggle="tooltip" 
+                data-placement="bottom" data-copy="n.huraux@hotmail.com" title="Copy mail"></ion-icon>
+              </span>
             </div>
           </div>
-          <div class="card mb-4" data-toggle="modal" data-target="#ModalAnthonyLefevre">
+          <div class="card mb-4">
+            <div data-toggle="modal" data-target="#ModalAnthonyLefevre">
             <img class="card-img-top" src="IMG/anthonyLefevre-350x350.jpg" alt="Anthony LEFEVRE">
               <div class="card-body">
                 <h5 class="card-title">Anthony LEFEVRE</h5>
               </div>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item"><ion-icon name="pin"></ion-icon>A l'écoute de toutes les opportunités</li>
+                <li class="list-group-item"><ion-icon name="pin"></ion-icon>Toutes opportunités</li>
               </ul>
+            </div>
             <div class="card-body">
               <a href="https://www.linkedin.com/in/anthony-lefevre-64a889187/" class="card-link" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
               <a href="https://github.com/baloo51" class="card-link" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
-              <span class="card-link"><ion-icon name="mail"></ion-icon></span>
+              <span class="card-link"><ion-icon name="mail" class="modalIcon js-tooltip js-copy" data-toggle="tooltip" 
+                data-placement="bottom" data-copy="lefevre.anthony.dev@gmail.com" title="Copy mail"></ion-icon>
+              </span>
             </div>
           </div>
-          <div class="card mb-4" data-toggle="modal" data-target="#ModalCecilMillerioux">
+          <div class="card mb-4">
+            <div data-toggle="modal" data-target="#ModalCecilMillerioux">
             <img class="card-img-top" src="IMG/cecilMillerioux-350x350.jpg" alt="Cecil MILLERIOUX">
               <div class="card-body">
                 <h5 class="card-title">Cecil MILLERIOUX</h5>
@@ -171,13 +204,18 @@
               <ul class="list-group list-group-flush">
                 <li class="list-group-item"><ion-icon name="pin"></ion-icon> Marne, Île-de-France</li>
               </ul>
+            </div>
             <div class="card-body">
               <a href="https://www.linkedin.com/in/cecil-millerioux-bb291b187/" class="card-link" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
               <a href="https://github.com/cecilmillerioux/" class="card-link" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
-              <span class="card-link"><ion-icon name="mail"></ion-icon></span>
+              <span class="card-link">
+                <ion-icon name="mail" class="modalIcon js-tooltip js-copy" data-toggle="tooltip" 
+                data-placement="bottom" data-copy="cecil.millerioux@gmail.com" title="Copy mail"></ion-icon>
+              </span>
             </div>
           </div>
-          <div class="card mb-4" data-toggle="modal" data-target="#ModalBryanNuninger">
+          <div class="card mb-4">
+            <div data-toggle="modal" data-target="#ModalBryanNuninger">
             <img class="card-img-top" src="IMG/bryanNuninger-350x350.jpg" alt="Bryan NUNINGER">
               <div class="card-body">
                 <h5 class="card-title">Bryan NUNINGER</h5>
@@ -185,13 +223,18 @@
               <ul class="list-group list-group-flush">
                 <li class="list-group-item"><ion-icon name="pin"></ion-icon> Marne, Île-de-France, Alsace</li>
               </ul>
+            </div>
             <div class="card-body">
               <a href="https://www.linkedin.com/in/bryan-nuninger-481388129/" class="card-link" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
               <a href="https://github.com/BryanNun" class="card-link" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
-              <span class="card-link"><ion-icon name="mail"></ion-icon></span>
+              <span class="card-link">
+                <ion-icon name="mail" class="modalIcon js-tooltip js-copy" data-toggle="tooltip" 
+                data-placement="bottom" data-copy="nuninger.bryan@gmail.com" title="Copy mail"></ion-icon>
+              </span>
             </div>
           </div>
-          <div class="card mb-4" data-toggle="modal" data-target="#ModalJulienRisacher">
+          <div class="card mb-4">
+            <div data-toggle="modal" data-target="#ModalJulienRisacher">
             <img class="card-img-top" src="IMG/julienRisacher-350x350.jpg" alt="Julien RISACHER">
               <div class="card-body">
                 <h5 class="card-title">Julien RISACHER</h5>
@@ -199,149 +242,76 @@
               <ul class="list-group list-group-flush">
                 <li class="list-group-item"><ion-icon name="pin"></ion-icon>Reims et son agglomération</li>
               </ul>
+            </div>
             <div class="card-body">
               <a href="https://www.linkedin.com/in/julien-risacher-483788186/" class="card-link" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
               <a href="https://github.com/Julienri" class="card-link" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
-              <span class="card-link"><ion-icon name="mail"></ion-icon></span>
+              <span class="card-link">
+                <ion-icon name="mail" class="modalIcon js-tooltip js-copy" data-toggle="tooltip" 
+                data-placement="bottom" data-copy="julien.risacher@gmail.com" title="Copy mail"></ion-icon>
+              </span>
             </div>
           </div>
-          <div class="card mb-4" data-toggle="modal" data-target="#ModalYoussefSabouni">
-            <img class="card-img-top" src="IMG/youssefSabouni-350x350.jpg" alt="Youssef SABOUNI">
+          <div class="card mb-4">
+            <div data-toggle="modal" data-target="#ModalYoussefSabouni">
+              <img class="card-img-top" src="IMG/youssefSabouni-350x350.jpg" alt="Youssef SABOUNI">
               <div class="card-body">
                 <h5 class="card-title">Youssef SABOUNI</h5>
               </div>
               <ul class="list-group list-group-flush">
                 <li class="list-group-item"><ion-icon name="pin"></ion-icon>France entière</li>
               </ul>
+            </div>
             <div class="card-body">
               <a href="https://www.linkedin.com/in/youssefsabouni" class="card-link" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
               <a href="https://github.com/Youssef51/" class="card-link" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
-              <span class="card-link"><ion-icon name="mail"></ion-icon></span>
+              <span class="card-link">
+                <ion-icon name="mail" class="modalIcon js-tooltip js-copy" data-toggle="tooltip" 
+                data-placement="bottom" data-copy="youssefsabouni@icloud.com" title="Copy mail"></ion-icon>
+              </span>
             </div>
           </div>
-          <div class="card mb-4" data-toggle="modal" data-target="#ModalStephaneThomin">
-            <img class="card-img-top" src="IMG/stephaneThomin-350x350.jpg" alt="Stephane THOMIN">
+          <div class="card mb-4">
+            <div data-toggle="modal" data-target="#ModalStephaneThomin">
+              <img class="card-img-top" src="IMG/stephaneThomin-350x350.jpg" alt="Stephane THOMIN">
               <div class="card-body">
                 <h5 class="card-title">Stéphane THOMIN</h5>
               </div>
               <ul class="list-group list-group-flush">
                 <li class="list-group-item"><ion-icon name="pin"></ion-icon>Marne</li>
               </ul>
+            </div>
             <div class="card-body">
               <a href="https://www.linkedin.com/in/st%C3%A9phane-thomin-a63368182/" class="card-link" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
               <a href="https://github.com/StephaneThomin" class="card-link" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
-              <span class="card-link"><ion-icon name="mail"></ion-icon></span>
+              <span class="card-link">
+                <ion-icon name="mail" class="modalIcon js-tooltip js-copy" data-toggle="tooltip" 
+                data-placement="bottom" data-copy="thomin.stephane@gmail.com" title="Copy mail"></ion-icon>
+              </span>
             </div>
           </div>
-          <div class="card mb-4" data-toggle="modal" data-target="#ModalRemyTrohel">
-            <img class="card-img-top" src="IMG/remyTrohel-350x350.jpg" alt="Remy TROHEL">
+          <div class="card mb-4">
+            <div data-toggle="modal" data-target="#ModalRemyTrohel">
+              <img class="card-img-top" src="IMG/remyTrohel-350x350.jpg" alt="Remy TROHEL">
               <div class="card-body">
                 <h5 class="card-title">Rémy TROHEL</h5>
               </div>
               <ul class="list-group list-group-flush">
                 <li class="list-group-item"><ion-icon name="pin"></ion-icon>Reims, Paris</li>
               </ul>
+            </div>
             <div class="card-body">
               <a href="https://www.linkedin.com/in/r%C3%A9my-trohel-04a06a12a/" class="card-link" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
               <a href="https://github.com/RemyTrohel" class="card-link" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
-              <span class="card-link"><ion-icon name="mail"></ion-icon></span>
+              <span class="card-link" data-target="#ModalRemyTrohel">
+                <ion-icon name="mail" class="modalIcon js-tooltip js-copy" data-toggle="tooltip" 
+                data-placement="bottom" data-copy="remy.trohel@gmail.com" title="Copy mail"></ion-icon>
+              </span>
             </div>
           </div>
         </div>
     </section>
-      
-    <!-- SECTION PRESENTATION FORMATION & FORMATEURS -->
-    <section id="formation" class="bg-light">
-      <!-- ANCRE SECTION -->
-      <span id="sectionFormation" class="ancre">a</span>
-      <h1><span>La Wild</span> team</h1>
-      <div class="card-deck-test flex-wrap">
-
-        <!-- CARD DE CLEMENT BECHETOILLE -->
-        <article class="card order-2">
-          <img src="IMG/Clement-bechetoille-350x350.jpg" class="card-img-top" alt="Photo de profil Clément Bechetoille">
-          <div class="card-body">
-            <h5 class="card-title">Clément Bechetoille</h5>
-            <p class="card-text">Campus Manager, Reims</p>
-            <div class="formateurIcon">
-                <a href="https://www.linkedin.com/in/clementbechetoille/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
-                <a data-toggle="modal" data-target="#modalMailClement"><ion-icon name="mail"></ion-icon></a>
-            </div>
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#clementBechetoilleModal">Voir plus</button>
-          </div>
-        </article>
-
-        <!-- CARD PRESENTATION FORMATION -->
-        <article class="card presentationFormation order-1">
-            <div class="card-header text-light bg-dark"></div>
-          <div class="card-body">
-            <h5 class="card-title">Qu'est-ce que la Wild Code School ?</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Promotion JAVA / JEE / Spring | Mai 2019</h6>
-            <p class="card-text">La <a href="https://wildcodeschool.fr/reims/" target="_blank">Wild Code School</a> est une école proposant une formation de développeur web en 5 mois et 4 mois de stage en entreprise. Sur Reims, la formation est axée sur JAVA / JEE / SPRING, elle se trouve au <a href="https://quartierlibre.co/" target="_blank">Quartier Libre</a>, un espace de coworking moderne où diverses startups se cotoient.Ce site met en avant les étudiants (wilders), de la promotion "ECHO" de la ville champenoise. N'hésitez pas à découvrir leur personnalité et les contacter en cliquant sur leur profil.</p>
-          </div>
-        </article>
-
-        <!-- CARD DE ROMAIN GUILLEMOT -->
-        <article class="card order-3">
-          <img src="IMG/Romain-Guillemot-350x350.jpg" class="card-img-top" alt="Photo de profil Romain Guillemot">
-          <div class="card-body">
-            <h5 class="card-title">Romain Guillemot</h5>
-            <p class="card-text">Formateur JavaEE, Reims</p>
-            <div class="formateurIcon">
-              <a href="https://www.linkedin.com/in/rguillemot/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
-              <a data-toggle="modal" data-target="#modalMailRomain"><ion-icon name="mail"></ion-icon></a>
-            </div>
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#romainGuillemotModal">Voir plus</button>
-          </div>
-        </article>
-      </div>
-
-      <!-- FENETRE MODAL POUR MAIL FORMATEURS -->
-      <div class="modal fade" id="modalMailRomain" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable" role="document">
-          <div class="modal-content">
-            <div class="modal-body">romain@wildcodeschool.fr</div>
-          </div>
-        </div>
-      </div>
-      <div class="modal fade" id="modalMailClement" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-scrollable" role="document">
-            <div class="modal-content">
-              <div class="modal-body">clement@wildcodeschool.fr</div>
-            </div>
-          </div>
-        </div>
-
-      <!-- Modal CLEMENT BECHETOILLE -->
-      <div class="modal fade" id="clementBechetoilleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Clément Bechetoille</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            </div>
-            <div class="modal-body">Diplômé de l’ESSCA d’Angers, Clément a d’abord travaillé à des fonctions marketing dans l’édition et les objets éducatifs avant de développer son expérience dans l’enseignement supérieur au Vietnam puis en France sur les sujets d’insertion professionnelle, de développement personnel et de recrutement innovant. Basé à Reims depuis quelques années, il s’implique dans les initiatives locales notamment l’organisation de TEDxReims. Passionné par les nouvelles approches pédagogiques, il a rejoint la Wild Code School comme Campus Manager à Reims</div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Modal ROMAIN GUILLEMOT -->
-      <div class="modal fade" id="romainGuillemotModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Romain Guillemot</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              </div>
-              <div class="modal-body">Après des études en informatique, Romain a d’abord travaillé dans une startup spécialisée dans la 3D relief. Il a également passé quelques années dans un labo universitaire à travailler étroitement avec des chercheur•euse•s spécialisé•e•s en visualisation scientifique. Attiré par le développement web et motivé par l’envie de partager son expérience, Romain s’est essayé à la vie de formateur, et il y a pris goût pour arriver aujourd’hui à la Wild Code School.</div>
-            </div>
-          </div>
-        </div>
-
-    </section>
-
+  
     <!------------------------------------------- MODAL WILDERS --------------------------------------->
     <section id="modal">
 
@@ -354,7 +324,6 @@
               <div class="modal-icons">
                 <a href="https://github.com/clementbouakil" target="_blank"><ion-icon class="modalIcon" name="logo-github"></ion-icon></a>
                 <a href="https://www.linkedin.com/in/cl%C3%A9ment-bouakil-3679b0182" target="_blank"><ion-icon class="modalIcon" name="logo-linkedin"></ion-icon></a>
-                <ion-icon name="mail"></ion-icon>
               </div>
             </div>
             <div class="modal-body">
@@ -376,6 +345,7 @@
 
               <h3>Mobilité : </h3>
               <p>Marne, Paris, Charleville-Mézières</p>
+              <ion-icon name="mail"></ion-icon> bouakil.clement.pro@gmail.com
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Fermer</button>
@@ -383,7 +353,6 @@
           </div>
         </div>
       </div>
-
       <div class="modal fade" id="ModalFurkanCelik" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
           <div class="modal-content">
@@ -393,7 +362,6 @@
               <div class="modal-icons">
                 <a href="https://github.com/fufu5146" target="_blank"><ion-icon class="modalIcon" name="logo-github"></ion-icon></a>
                 <a href="https://www.linkedin.com/in/furkan-celik-8950a8138//" target="_blank"><ion-icon class="modalIcon" name="logo-linkedin"></ion-icon></a>
-                <ion-icon name="mail"></ion-icon>
               </div>
             </div>
             <div class="modal-body">
@@ -416,6 +384,7 @@
                 <h3>Mobilité : </h3>
                 Marne, Île-de-France, Etranger
               </p>
+              <ion-icon name="mail"></ion-icon> c.furkan.contact@gmail.com
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Fermer</button>
@@ -423,8 +392,7 @@
           </div>
         </div>
       </div>
-
-      <div class="modal fade" id="ModalCaroleChevalier" tabindex="-1" role="dialog" aria-labelledby="#ModalCaroleChevalier" aria-hidden="true">
+      <div class="modal fade" id="ModalCaroleChevalier" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
@@ -433,7 +401,6 @@
               <div class="modal-icons">
                 <a href="https://github.com/cakocako" target="_blank"><ion-icon class="modalIcon" name="logo-github"></ion-icon></a>
                 <a href="https://www.linkedin.com/in/chevalier-carole-2b289016/" target="_blank"><ion-icon class="modalIcon" name="logo-linkedin"></ion-icon></a>
-                <ion-icon name="mail"></ion-icon>
               </div>
             </div>
             <div class="modal-body">
@@ -450,6 +417,7 @@
 
               <h3>Mobilité : </h3>
               <p>Marne, Paris, Bruxelles</p>
+              <ion-icon name="mail"></ion-icon> carolechevalier.design@orange.fr
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Fermer</button>
@@ -457,7 +425,6 @@
           </div>
         </div>
       </div>
-
       <div class="modal fade" id="ModalSebastienDupuis" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
           <div class="modal-content">
@@ -467,7 +434,6 @@
               <div class="modal-icons">
                 <a href="https://github.com/Seb-Dupuis" target="_blank"><ion-icon class="modalIcon" name="logo-github"></ion-icon></a>
                 <a href="https://www.linkedin.com/in/s%C3%A9bastien-dupuis-741a19178/" target="_blank"><ion-icon class="modalIcon" name="logo-linkedin"></ion-icon></a>
-                <ion-icon name="mail"></ion-icon>
               </div>
             </div>
             <div class="modal-body">
@@ -488,6 +454,7 @@
 
               <h3>Mobilité : </h3>
               <p>Reims</p>
+              <ion-icon name="mail"></ion-icon> sebastien-dupuis@laposte.net
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Fermer</button>
@@ -505,7 +472,6 @@
               <div class="modal-icons">
                 <a href="https://github.com/LeaGoarant" target="_blank"><ion-icon class="modalIcon" name="logo-github"></ion-icon></a>
                 <a href="https://www.linkedin.com/in/l%C3%A9a-goarant-rocher-6aa673187/" target="_blank"><ion-icon class="modalIcon" name="logo-linkedin"></ion-icon></a>
-                <ion-icon name="mail"></ion-icon>
               </div>
             </div>
             <div class="modal-body">
@@ -525,6 +491,7 @@
 
               <h3>Mobilité : </h3>
               <p>Marne, Île-de-France</p>
+              <ion-icon name="mail"></ion-icon> leagoarant@msn.com
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Fermer</button>
@@ -542,7 +509,6 @@
               <div class="modal-icons">
                 <a href="https://github.com/vincentGuegan" target="_blank"><ion-icon class="modalIcon" name="logo-github"></ion-icon></a>
                 <a href="https://www.linkedin.com/in/vincent-guegan/" target="_blank"><ion-icon class="modalIcon" name="logo-linkedin"></ion-icon></a>
-                <ion-icon name="mail"></ion-icon>
               </div>
             </div>
             <div class="modal-body">
@@ -569,6 +535,7 @@
   
                 <h3>Mobilité : </h3>
                 <p>A la recherche d'un stage de 4 mois dans la Marne ou région Île-de-France</p>
+                <ion-icon name="mail"></ion-icon> gueganvincent@gmail.com
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Fermer</button>
@@ -586,7 +553,6 @@
               <div class="modal-icons">
                 <a href="https://github.com/NicolasHuraux" target="_blank"><ion-icon class="modalIcon" name="logo-github"></ion-icon></a>
                 <a href="https://www.linkedin.com/in/nicolas-huraux" target="_blank"><ion-icon class="modalIcon" name="logo-linkedin"></ion-icon></a>
-                <ion-icon name="mail"></ion-icon>
               </div>
             </div>
             <div class="modal-body">
@@ -603,6 +569,7 @@
   
                 <h3>Mobilité : </h3>
                 <p>Marne, Île-de-France</p>
+                <ion-icon name="mail"></ion-icon> n.huraux@hotmail.com
               </div>
               <div class="modal-footer">
               <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Fermer</button>
@@ -620,7 +587,6 @@
               <div class="modal-icons">
                 <a href="https://github.com/baloo51" target="_blank"><ion-icon class="modalIcon" name="logo-github"></ion-icon></a>
                 <a href="https://www.linkedin.com/in/anthony-lefevre-64a889187/" target="_blank"><ion-icon class="modalIcon" name="logo-linkedin"></ion-icon></a>
-                <ion-icon name="mail"></ion-icon>
               </div>
             </div>
             <div class="modal-body">
@@ -638,6 +604,7 @@
 
               <h3>Mobilité : </h3>
               <p>A l'écoute de toutes les opportunités</p>
+              <ion-icon name="mail"></ion-icon> lefevre.anthony.dev@gmail.com
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Fermer</button>
@@ -655,7 +622,6 @@
               <div class="modal-icons">
                 <a href="https://github.com/cecilmillerioux/" target="_blank"><ion-icon class="modalIcon" name="logo-github"></ion-icon></a>
                 <a href="https://www.linkedin.com/in/cecil-millerioux-bb291b187/" target="_blank"><ion-icon class="modalIcon" name="logo-linkedin"></ion-icon></a>
-                <ion-icon name="mail"></ion-icon>
               </div>
             </div>
             <div class="modal-body">
@@ -673,6 +639,7 @@
 
               <h3>Mobilité : </h3>
               <p>Marne, Île-de-France</p>
+              <ion-icon name="mail"></ion-icon> cecil.millerioux@gmail.com
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Fermer</button>
@@ -690,7 +657,6 @@
               <div class="modal-icons">
                 <a href="https://github.com/BryanNun" target="_blank"><ion-icon class="modalIcon" name="logo-github"></ion-icon></a>
                 <a href="https://www.linkedin.com/in/bryan-nuninger-481388129/" target="_blank"><ion-icon class="modalIcon" name="logo-linkedin"></ion-icon></a>
-                <ion-icon name="mail"></ion-icon>
               </div>
             </div>
             <div class="modal-body">
@@ -709,6 +675,7 @@
 
               <h3>Mobilité : </h3>
               <p>Marne, Île-de-France, Alsace</p>
+              <ion-icon name="mail"></ion-icon> nuninger.bryan@gmail.com
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Fermer</button>
@@ -726,7 +693,6 @@
               <div class="modal-icons">
                 <a href="https://github.com/Julienri" target="_blank"><ion-icon class="modalIcon" name="logo-github"></ion-icon></a>
                 <a href="https://www.linkedin.com/in/julien-risacher-483788186/" target="_blank"><ion-icon class="modalIcon" name="logo-linkedin"></ion-icon></a>
-                <ion-icon name="mail"></ion-icon>
               </div>
             </div>
             <div class="modal-body">
@@ -747,6 +713,7 @@
 
               <h3>Mobilité : </h3>
               <p>Reims et son agglomération</p>
+              <ion-icon name="mail"></ion-icon> julien.risacher@gmail.com
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Fermer</button>
@@ -764,7 +731,6 @@
               <div class="modal-icons">
                 <a href="https://github.com/Youssef51/" target="_blank"><ion-icon class="modalIcon" name="logo-github"></ion-icon></a>
                 <a href="https://www.linkedin.com/in/youssefsabouni" target="_blank"><ion-icon class="modalIcon" name="logo-linkedin"></ion-icon></a>
-                <ion-icon name="mail"></ion-icon>
               </div>
             </div>
             <div class="modal-body">
@@ -782,6 +748,7 @@
 
               <h3>Mobilité : </h3>
               <p>France entière</p>
+              <ion-icon name="mail"></ion-icon> youssefsabouni@icloud.com
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Fermer</button>
@@ -799,7 +766,6 @@
               <div class="modal-icons">
                 <a href="https://github.com/StephaneThomin" target="_blank"><ion-icon class="modalIcon" name="logo-github"></ion-icon></a>
                 <a href="https://www.linkedin.com/in/st%C3%A9phane-thomin-a63368182/" target="_blank"><ion-icon class="modalIcon" name="logo-linkedin"></ion-icon></a>
-                <ion-icon name="mail"></ion-icon>
               </div>
             </div>
             <div class="modal-body">
@@ -816,6 +782,7 @@
 
               <h3>Mobilité : </h3>
               <p>Marne</p>
+              <ion-icon name="mail"></ion-icon> thomin.stephane@gmail.com
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Fermer</button>
@@ -831,9 +798,10 @@
               <img class="photo-profil" src="IMG/remyTrohel-350x350.jpg" width="150" alt="Photo de profil">
               <h2 class="modal-title">Rémy Trohel</h2>
               <div class="modal-icons">
-                <a href="https://github.com/RemyTrohel" target="_blank"><ion-icon class="modalIcon" name="logo-github"></ion-icon></a>
-                <a href="https://www.linkedin.com/in/r%C3%A9my-trohel-04a06a12a/" target="_blank"><ion-icon class="modalIcon" name="logo-linkedin"></ion-icon></a>
-                <ion-icon name="mail"></ion-icon>
+                <a href="https://github.com/RemyTrohel" target="_blank">
+                  <ion-icon class="modalIcon" name="logo-github"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/r%C3%A9my-trohel-04a06a12a/" target="_blank">
+                  <ion-icon class="modalIcon" name="logo-linkedin"></ion-icon></a>
               </div>
             </div>
             <div class="modal-body">
@@ -851,6 +819,7 @@
 
               <h3>Mobilité : </h3>
               <p>Reims, Paris</p>
+              <ion-icon name="mail"></ion-icon> remy.trohel@gmail.com
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Fermer</button>
@@ -858,8 +827,83 @@
           </div>
         </div>
       </div>
+    </section>
+        
+    <!-- SECTION PRESENTATION FORMATION & FORMATEURS -->
+    <section id="formation" class="bg-light">
+      <!-- ANCRE SECTION -->
+      <span id="sectionFormation" class="ancre">a</span>
+      <h1><span>La Wild</span> team</h1>
+      <div class="card-deck-test flex-wrap">
 
+        <!-- CARD DE CLEMENT BECHETOILLE -->
+        <article class="card order-2">
+          <img src="IMG/Clement-bechetoille-350x350.jpg" class="card-img-top" alt="Photo de profil Clément Bechetoille">
+          <div class="card-body">
+            <h5 class="card-title">Clément Bechetoille</h5>
+            <p class="card-text">Campus Manager, Reims</p>
+            <div class="formateurIcon">
+                <a href="https://www.linkedin.com/in/clementbechetoille/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <ion-icon name="mail" class="modalIcon js-tooltip js-copy" data-toggle="tooltip" 
+                data-placement="bottom" data-copy="clement@wildcodeschool.fr" title="Copy mail"></ion-icon>
+            </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#clementBechetoilleModal">Voir plus</button>
+          </div>
+        </article>
 
+        <!-- CARD PRESENTATION FORMATION -->
+        <article class="card presentationFormation order-1">
+            <div class="card-header text-light bg-dark"></div>
+          <div class="card-body">
+            <h5 class="card-title">Qu'est-ce que la Wild Code School ?</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Promotion JAVA / JEE / Spring | Mai 2019</h6>
+            <p class="card-text">La <a href="https://wildcodeschool.fr/reims/" target="_blank">Wild Code School</a> est une école proposant une formation de développeur web en 5 mois et 4 mois de stage en entreprise. Sur Reims, la formation est axée sur JAVA / JEE / SPRING, elle se trouve au <a href="https://quartierlibre.co/" target="_blank">Quartier Libre</a>, un espace de coworking moderne où diverses startups se cotoient.Ce site met en avant les étudiants (wilders), de la promotion "ECHO" de la ville champenoise. N'hésitez pas à découvrir leur personnalité et les contacter en cliquant sur leur profil.</p>
+          </div>
+        </article>
+
+        <!-- CARD DE ROMAIN GUILLEMOT -->
+        <article class="card order-3">
+          <img src="IMG/Romain-Guillemot-350x350.jpg" class="card-img-top" alt="Photo de profil Romain Guillemot">
+          <div class="card-body">
+            <h5 class="card-title">Romain Guillemot</h5>
+            <p class="card-text">Formateur JavaEE, Reims</p>
+            <div class="formateurIcon">
+              <a href="https://www.linkedin.com/in/rguillemot/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+              <ion-icon name="mail" class="modalIcon js-tooltip js-copy" data-toggle="tooltip" 
+                data-placement="bottom" data-copy="romain@wildcodeschool.fr" title="Copy mail"></ion-icon>
+            </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#romainGuillemotModal">Voir plus</button>
+          </div>
+        </article>
+      </div>
+
+      <!-- Modal CLEMENT BECHETOILLE -->
+      <div class="modal fade" id="clementBechetoilleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Clément Bechetoille</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">Diplômé de l’ESSCA d’Angers, Clément a d’abord travaillé à des fonctions marketing dans l’édition et les objets éducatifs avant de développer son expérience dans l’enseignement supérieur au Vietnam puis en France sur les sujets d’insertion professionnelle, de développement personnel et de recrutement innovant. Basé à Reims depuis quelques années, il s’implique dans les initiatives locales notamment l’organisation de TEDxReims. Passionné par les nouvelles approches pédagogiques, il a rejoint la Wild Code School comme Campus Manager à Reims</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal ROMAIN GUILLEMOT -->
+      <div class="modal fade" id="romainGuillemotModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Romain Guillemot</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              </div>
+              <div class="modal-body">Après des études en informatique, Romain a d’abord travaillé dans une startup spécialisée dans la 3D relief. Il a également passé quelques années dans un labo universitaire à travailler étroitement avec des chercheur•euse•s spécialisé•e•s en visualisation scientifique. Attiré par le développement web et motivé par l’envie de partager son expérience, Romain s’est essayé à la vie de formateur, et il y a pris goût pour arriver aujourd’hui à la Wild Code School.</div>
+            </div>
+          </div>
+        </div>
     </section>
 
     <!-------------------------------------------- GOOGLE MAPS ----------------------------------------->
@@ -868,7 +912,8 @@
     <!-------------------------------------------- FOOTER ----------------------------------------->
     <footer class="baspage row" id="footer">
       <span>Contacter le Campus Manager Clément Bechetoille</span>
-      <a href="mailto:clement@wildcodeschool.fr"><button type="button" class="btn btn-outline-light btn-lg">Contacter</button></a>
+      <button type="button" class="btn btn-outline-light btn-lg js-tooltip js-copy" data-toggle="tooltip" 
+      data-placement="bottom" data-copy="clement@wildcodeschool.fr" title="Copy mail">Contacter</button>
       <div class="reseaux">
         <a href="https://wildcodeschool.fr/" target="_blank"><ion-icon name="finger-print"></ion-icon></a>
         <a href="https://fr-fr.facebook.com/wildcodeschool" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
@@ -888,5 +933,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <!-- JS pour les icones -->
     <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+    <script src="script/script.js"></script>
   </body>
 </html>
